@@ -218,10 +218,12 @@ body:hover .visually-hidden button {
 // Sized to fill the full 1.25em fa-fw box, matching the envelope and other
 // font icons beside it. Corners come from the SVG's own rx, so no
 // border-radius here.
+// Larger than the 1.25em wrapper, so it overhangs symmetrically. That is fine:
+// the wrapper keeps its fixed width, so every label stays left-aligned.
 .sidebar img.author__custom-icon {
-  width: 1.45em;
-  height: 1.45em;
-  vertical-align: -0.4em;
+  width: 1.65em;
+  height: 1.65em;
+  vertical-align: -0.5em;
 }
 
 /* social icons*/
