@@ -25,4 +25,3 @@ Edit, commit, push; the site rebuilds in a minute or two.
 
 Built on the [Academic Pages](https://github.com/academicpages/academicpages.github.io)
 template, a fork of [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
-Design notes are in `docs/superpowers/`.
