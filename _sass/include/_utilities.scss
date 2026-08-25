@@ -195,6 +195,12 @@ body:hover .visually-hidden button {
 
 /* Image-based sidebar icons (e.g. the SSRN badge), sized to match the
    1.25em-wide fa-fw font icons they sit alongside */
+// Semi-bold (600) emphasis, lighter than Markdown's ** ** which renders at 700.
+// Use in content as: <span class="semibold">text</span>
+.semibold {
+  font-weight: 600;
+}
+
 // Image-based sidebar icons (e.g. the SSRN badge).
 //
 // The image is wrapped in a <span class="fa-fw icon-pad-right"> so it inherits
