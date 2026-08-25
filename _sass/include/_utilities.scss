@@ -220,9 +220,14 @@ body:hover .visually-hidden button {
 // border-radius here.
 // Larger than the 1.25em wrapper, so it overhangs symmetrically. That is fine:
 // the wrapper keeps its fixed width, so every label stays left-aligned.
+// max-width:none is essential. The theme's base reset sets `img { max-width:
+// 100% }`, where 100% resolves against the 1.25em fa-fw wrapper and silently
+// clamps whatever width is set below. Without it the badge can never grow
+// past 1.25em no matter what value is used here.
 .sidebar img.author__custom-icon {
   width: 2.5em;
   height: 2.5em;
+  max-width: none;
   vertical-align: -0.85em;
 }
 
