@@ -12,8 +12,10 @@
     "vendor/breakpoint/breakpoint",
 
     "themes",
+    // Light-only site: the dark theme partial is deliberately not imported, so
+    // no html[data-theme="dark"] rules exist and visitors whose OS is set to
+    // dark mode still see the light design. Re-add the line below to restore it.
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
     "include/mixins",
     "vendor/susy/susy",
