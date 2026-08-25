@@ -231,6 +231,33 @@ body:hover .visually-hidden button {
   vertical-align: -0.85em;
 }
 
+/* Abstract toggles on the research page.
+   Hides the browser's default disclosure triangle while keeping <details>
+   fully functional, and gives the summary a soft grey chip like
+   timdesilva.me. The marker is suppressed three ways because browsers
+   disagree: display:inline-block and list-style cover standards browsers,
+   ::-webkit-details-marker covers older Safari and Chrome. */
+.page__content details > summary {
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+  padding: 0.1em 0.4em;
+  background: #f2f3f3;
+  border-radius: 3px;
+}
+
+.page__content details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.page__content details > summary::marker {
+  content: "";
+}
+
+.page__content details > summary:hover {
+  background: #e7e9e9;
+}
+
 /* social icons*/
 
 .social-icons {
