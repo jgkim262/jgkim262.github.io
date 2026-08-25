@@ -13,7 +13,7 @@ title                    : "Jason G. Kim"
 title_separator          : "-"
 name                     : &name "Jason G. Kim"
 description              : &description "Jason G. Kim is a Ph.D. candidate in accounting at the MIT Sloan School of Management. His research examines auditing, regulation, and the organizational design of accounting work."
-url                      : https://jasonkim.pro # The base hostname & protocol for your site
+url                      : https://jgkim262.github.io # Change to https://jasonkim.pro once DNS for the custom domain is live
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jgkim262/jgkim262.github.io"
 
