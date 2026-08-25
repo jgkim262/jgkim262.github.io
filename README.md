@@ -1,6 +1,6 @@
 # jasonkim.pro
 
-Personal academic website for Jason G. Kim, Ph.D. candidate in accounting at the
+Personal academic website for Jason Kim, Ph.D. candidate in accounting at the
 MIT Sloan School of Management.
 
 Live at [jasonkim.pro](https://jasonkim.pro) and

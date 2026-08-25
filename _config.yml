@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Jason G. Kim"
+title                    : "Jason Kim"
 title_separator          : "-"
-name                     : &name "Jason G. Kim"
-description              : &description "Jason G. Kim is a Ph.D. candidate in accounting at the MIT Sloan School of Management. His research examines auditing, regulation, and the organizational design of accounting work."
+name                     : &name "Jason Kim"
+description              : &description "Jason Kim is a Ph.D. candidate in accounting at the MIT Sloan School of Management. His research examines auditing, regulation, and the organizational design of accounting work."
 url                      : https://jgkim262.github.io # Change to https://jasonkim.pro once DNS for the custom domain is live
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jgkim262/jgkim262.github.io"
@@ -23,7 +23,7 @@ repository               : "jgkim262/jgkim262.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Jason G. Kim"
+  name             : "Jason Kim"
   pronouns         : # example: "she/her"
   bio              : "Ph.D. Candidate in Accounting"
   location         : "Cambridge, MA"
