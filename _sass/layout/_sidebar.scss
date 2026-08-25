@@ -50,7 +50,7 @@
   }
 
   p, li {
-    font-family: $sans-serif;
+    font-family: $global-font-family;
     font-size: $type-size-6;
     line-height: 1.5;
   }
@@ -156,11 +156,8 @@
   img {
     max-width: 175px;
     border-radius: 50%;
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid var(--global-border-color);
-    }
+    padding: 5px;
+    border: 1px solid var(--global-border-color);
   }
 }
 
@@ -188,7 +185,7 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: $global-font-family;
   font-size: $type-size-5;
 }
 
@@ -221,7 +218,7 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $sans-serif;
+  font-family: $global-font-family;
   z-index: 10;
   position: relative;
   cursor: pointer;
