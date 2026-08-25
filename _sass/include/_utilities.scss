@@ -193,6 +193,16 @@ body:hover .visually-hidden button {
   margin-right: 0.5em;
 }
 
+/* Image-based sidebar icons (e.g. the SSRN badge), sized to match the
+   1.25em-wide fa-fw font icons they sit alongside */
+.author__custom-icon {
+  width: 1.25em;
+  height: 1.25em;
+  vertical-align: -0.25em;
+  margin-right: 1em;
+  border-radius: 50%;
+}
+
 /* social icons*/
 
 .social-icons {
