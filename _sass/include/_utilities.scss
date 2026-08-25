@@ -196,10 +196,15 @@ body:hover .visually-hidden button {
 /* Image-based sidebar icons (e.g. the SSRN badge), sized to match the
    1.25em-wide fa-fw font icons they sit alongside */
 .author__custom-icon {
-  width: 1.25em;
-  height: 1.25em;
-  vertical-align: -0.25em;
-  margin-right: 1em;
+  // A solid image fills its whole box, whereas a Font Awesome glyph sits
+  // smaller inside its 1.25em fa-fw box. So draw it at 1em and pad either
+  // side, keeping the total 2.25em (1.25em box + 0.5em padding + 0.5em
+  // margin) so the labels stay flush with the font-icon rows.
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  margin-left: 0.125em;
+  margin-right: 1.125em;
   border-radius: 50%;
 }
 
