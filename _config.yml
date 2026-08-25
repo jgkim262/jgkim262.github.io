@@ -123,6 +123,12 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+# GitHub Pages runs jekyll-titles-from-headings by default, which promotes a
+# page's first heading to its title when the front matter has none. That made
+# pages without a title render their first heading twice, so it is off.
+titles_from_headings:
+  enabled                : false
+
 atom_feed:
   hide                   : true      # no blog on this site
   path                   : # blank (default) uses feed.xml
