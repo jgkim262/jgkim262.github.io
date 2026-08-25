@@ -195,11 +195,15 @@ body:hover .visually-hidden button {
 
 /* Image-based sidebar icons (e.g. the SSRN badge), sized to match the
    1.25em-wide fa-fw font icons they sit alongside */
-.author__custom-icon {
-  // A solid image fills its whole box, whereas a Font Awesome glyph sits
-  // smaller inside its 1.25em fa-fw box. So draw it at 1em and pad either
-  // side, keeping the total 2.25em (1.25em box + 0.5em padding + 0.5em
-  // margin) so the labels stay flush with the font-icon rows.
+// Image-based sidebar icons (e.g. the SSRN badge). The selector is qualified
+// with .sidebar img so it outranks the theme's `.sidebar img { width: 100% }`,
+// which otherwise stretches the icon's box and shoves its label to the right.
+//
+// A solid image fills its whole box, whereas a Font Awesome glyph sits smaller
+// inside its 1.25em fa-fw box. So draw it at 1em and pad either side, keeping
+// the total 2.25em (1.25em box + 0.5em padding + 0.5em margin) so the labels
+// line up with the font-icon rows.
+.sidebar img.author__custom-icon {
   width: 1em;
   height: 1em;
   vertical-align: -0.125em;

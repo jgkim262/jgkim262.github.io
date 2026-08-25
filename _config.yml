@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Jason Kim"
   pronouns         : # example: "she/her"
-  bio              : "Ph.D. Candidate<br>in Accounting"
+  bio              : "Ph.D. Candidate in<br>Accounting"
   location         : "Cambridge, MA"
   employer         : # blank hides the line in the sidebar
   uri              : # URL
