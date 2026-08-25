@@ -215,11 +215,13 @@ body:hover .visually-hidden button {
 // `.sidebar img { width: 100% }`, which would otherwise blow the icon up.
 // Drawn at 1em rather than the full 1.25em because a solid image fills its
 // whole box, while a glyph sits smaller inside its own.
+// 0.9em rather than the full 1.25em box: the badge is a filled square, so it
+// reads heavier than a glyph at the same size. Corners come from the SVG's own
+// rx, so no border-radius here.
 .sidebar img.author__custom-icon {
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.125em;
-  border-radius: 50%;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: -0.1em;
 }
 
 /* social icons*/
