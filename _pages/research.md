@@ -6,7 +6,6 @@ author_profile: true
 ## Job Market Paper
 
 **[Does Ownership Structure Affect Audit Quality? Evidence from Non-CPA Ownership Provisions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7261201)**
-
 * Committee members: John Core, Nemit Shroff (chair), and Andrew Sutherland
 * Award: 2026 Rutgers Accounting Doctoral Symposium Best Paper Award
 * Presented: 2026 KAAPA Summer Conference,  2026 Rutgers Accounting Doctoral Symposium, MIT Sloan
