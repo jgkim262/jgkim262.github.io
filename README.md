@@ -23,5 +23,8 @@ or Jekyll installation is needed.
 
 Edit, commit, push; the site rebuilds in a minute or two.
 
+See **[EDITING.md](EDITING.md)** for step-by-step instructions: adding a paper,
+adding a page, changing the navigation or fonts, and what to do if a build fails.
+
 Built on the [Academic Pages](https://github.com/academicpages/academicpages.github.io)
 template, a fork of [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
