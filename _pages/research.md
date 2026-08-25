@@ -7,10 +7,9 @@ author_profile: true
 
 **[Does Ownership Structure Affect Audit Quality? Evidence from Non-CPA Ownership Provisions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7261201)**
 
-*Best Paper Award, 2026 Rutgers Accounting Doctoral Symposium*
-
-Committee: Nemit Shroff (chair), John Core, and Andrew Sutherland.
-Presented at MIT, the 2026 Rutgers Accounting Doctoral Symposium, and the 2026 KAAPA Summer Conference.
+* Committee members: John Core, Nemit Shroff (chair), and Andrew Sutherland
+* Award: 2026 Rutgers Accounting Doctoral Symposium Best Paper Award
+* Presented: 2026 KAAPA Summer Conference,  2026 Rutgers Accounting Doctoral Symposium, MIT Sloan
 
 <details markdown="1"><summary>[+] Abstract</summary>
 
