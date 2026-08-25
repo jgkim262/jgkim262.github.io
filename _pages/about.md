@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Jason G. Kim"
 author_profile: true
 redirect_from:
   - /about/
