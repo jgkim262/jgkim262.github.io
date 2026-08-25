@@ -6,6 +6,8 @@ redirect_from:
   - /about.html
 ---
 
+<br>
+
 Welcome!
 
 I am currently a Ph.D. candidate in Accounting at the **[MIT Sloan School of Management](https://mitsloan.mit.edu/)**, and I am on the <span class="semibold">2026–2027 academic job market</span>.
