@@ -6,7 +6,7 @@ author_profile: true
 
 ## Job Market Paper
 
-**[Does Ownership Structure Affect Audit Quality? Evidence from Non-CPA Ownership Provisions](/files/JasonKim_JMP.pdf)**
+**[Does Ownership Structure Affect Audit Quality? Evidence from Non-CPA Ownership Provisions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7261201)**
 
 *Best Paper Award, 2026 Rutgers Accounting Doctoral Symposium*
 
