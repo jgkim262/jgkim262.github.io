@@ -13,7 +13,7 @@ title                    : "Jason Kim"
 title_separator          : "-"
 name                     : &name "Jason Kim"
 description              : &description "Jason Kim is a Ph.D. candidate in accounting at the MIT Sloan School of Management. His research examines auditing, regulation, and the organizational design of accounting work."
-url                      : https://jgkim262.github.io # Change to https://jasonkim.pro once DNS for the custom domain is live
+url                      : https://jasonkim.pro # served via Porkbun DNS -> GitHub Pages
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jgkim262/jgkim262.github.io"
 
