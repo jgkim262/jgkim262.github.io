@@ -13,4 +13,4 @@ His research interests lie in <span class="semibold">auditing</span>, <span clas
 
 He holds an M.S. in Accounting and a B.A. in Business Administration (<em class="latin">summa cum laude</em>) from Seoul National University. Prior to his studies at MIT, he worked as an auditor at KPMG Korea. He is a licensed CPA (inactive) in South Korea.
 
-You can find his [CV here](/files/JasonKim_CV.pdf){: .underline .semibold}.
+You can find his [CV here](/files/JasonKim_CV.pdf){: .underline}.
