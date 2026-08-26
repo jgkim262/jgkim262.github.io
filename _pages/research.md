@@ -27,7 +27,7 @@ This paper examines whether allowing non-CPAs to own an equity stake in CPA firm
 This registered report proposes to examine whether offshoring a company’s accounting function affects financial reporting quality. Offshoring can generate efficiency gains by reducing costs, expanding access to accounting talent, and enabling specialization. However, it may also impair reporting quality by creating communication frictions, weakening oversight, and increasing coordination costs across locations. We propose to measure financial reporting quality using confidential PCAOB data on audit adjustments—misstatements in companies’ pre-audit financial statements identified by auditors before financial statements are finalized. We measure accounting offshoring primarily at the company-year level using Revelio Labs resume data, defined as the share of a company’s accounting employees located outside the U.S. We supplement this measure with an industry-year measure of accounting service imports from the Bureau of Economic Analysis, which captures both in-house and outsourced offshoring. To mitigate endogeneity concerns, we exploit India’s 2017 amendment to its Special Economic Zones program, which extended tax and regulatory benefits to exporters of accounting services and plausibly reduced the cost of India-based accounting offshoring. The study will provide evidence on whether accounting offshoring creates a cost–quality tradeoff or allows companies to reduce costs and alleviate accounting labor constraints without compromising financial reporting quality.
 </details>
 
-* <span class="muted">Presented:</span> MIT Sloan, 2025 PCAOB/Management Science Registered Reports Conference
+* Presented: MIT Sloan, 2025 PCAOB/Management Science Registered Reports Conference
 
 
 **[3] Tax-Induced Distortion in Managerial Horizon**{: .paper-title}<br>
@@ -37,7 +37,7 @@ This registered report proposes to examine whether offshoring a company’s acco
 This paper examines whether boards respond to tax-induced changes in the incentive horizon they design, arising from the differential tax treatment of CEOs’ short-term incentives (e.g., bonuses or performance-vesting conditions of equity awards) and long-term incentives (e.g., gains from equity awards). Using staggered changes in state-level ordinary income and long-term capital gains tax rates, we find that boards do not adjust incentive weights in a timely manner. Nonetheless, CEOs do respond to these incentive changes. Specifically, tax-induced decreases in the after-tax weight on long-horizon incentives lead CEOs to engage in more myopic behavior, whereas increases in the after-tax weight on long-horizon incentives mitigate such behavior. The effect of after-tax weights is stronger when the affected pay component constitutes a larger share of CEOs’ pay-for-performance sensitivity. Competitive product markets mitigate the extent of myopic behavior. Overall, our results suggest that taxes distort the realized, after-tax composition of short- and long-term incentives, exogenously shifting the balance of horizons designed by the board.
 </details>
 
-* <span class="muted">Presented:</span> 2026 FARS Midyear Meeting, 2026 MAS Midyear Meeting
+* Presented: 2026 FARS Midyear Meeting, 2026 MAS Midyear Meeting
 
 ## Work in Progress
 
