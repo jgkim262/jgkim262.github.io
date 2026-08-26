@@ -304,6 +304,13 @@ body:hover .visually-hidden button {
   margin-top: 1em;
 }
 
+// Likewise on the research page: Job Market Paper opens the page, so it gets
+// less air than the 2.5em that separates Working Papers and Work in Progress
+// from the sections above them.
+.page__content > h2.section-title:first-child {
+  margin-top: 1em;
+}
+
 // Qualified with .page__content: the theme's `.page__content p` rule sets
 // margin-bottom 1.3em, sits later in the import order, and ties on
 // specificity — so a bare `.teaching p` never actually won. That is why
