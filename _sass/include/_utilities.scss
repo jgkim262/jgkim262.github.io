@@ -258,6 +258,19 @@ body:hover .visually-hidden button {
   background: #e7e9e9;
 }
 
+/* The expanded abstract sits in its own soft grey panel, separated from the
+   toggle above it. Targets the paragraphs rather than <details> itself so the
+   grey does not run behind the summary chip. */
+.page__content details > summary {
+  margin-bottom: 1em;
+}
+
+.page__content details > p {
+  background: #f2f3f3;
+  padding: 1.25em 1.5em;
+  margin-top: 0;
+}
+
 /* social icons*/
 
 .social-icons {
