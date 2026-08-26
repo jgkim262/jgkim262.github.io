@@ -258,6 +258,20 @@ body:hover .visually-hidden button {
   background: #e7e9e9;
 }
 
+/* People's names (committee members, coauthors) linked to their pages.
+   Grey and unadorned, matching timdesilva.me, so the label beside them stays
+   the more prominent element and the names do not compete with paper titles.
+   Apply in Markdown with kramdown's inline attribute syntax:
+   [Name](url){: .coauthor} */
+.page__content a.coauthor {
+  color: gray;
+  text-decoration: none;
+}
+
+.page__content a.coauthor:hover {
+  text-decoration: underline;
+}
+
 /* The expanded abstract sits in its own soft grey panel, separated from the
    toggle above it. Targets the paragraphs rather than <details> itself so the
    grey does not run behind the summary chip. */
