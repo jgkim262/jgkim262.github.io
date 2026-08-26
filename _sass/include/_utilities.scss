@@ -319,6 +319,13 @@ body:hover .visually-hidden button {
   font-weight: 800;
 }
 
+/* Medium weight — a lighter emphasis than .semibold, for phrases that should
+   lift off the 300-weight body text without shouting.
+   Apply with: <span class="medium">text</span> */
+.page__content .medium {
+  font-weight: 500;
+}
+
 /* Research topics called out in running text. Apply with:
    <span class="topic">auditing</span> */
 .page__content .topic {
