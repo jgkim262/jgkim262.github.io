@@ -382,7 +382,9 @@ body:hover .visually-hidden button {
    [Name](url){: .coauthor} */
 // 350 is only a real weight because Roboto Slab is loaded as a variable font
 // (wght@300..800 in head.html). With fixed instances it would snap to 300.
-.page__content a.coauthor {
+// Matches both linked names (a.coauthor) and unlinked ones (span.coauthor),
+// so a coauthor without a homepage still sets in the same weight.
+.page__content .coauthor {
   color: var(--global-text-color);
   font-weight: 350;
   text-decoration: none;
