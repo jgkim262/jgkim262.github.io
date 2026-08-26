@@ -157,8 +157,15 @@
     // 175px is both the template default and the value timdesilva.me uses.
     max-width: 175px;
     border-radius: 50%;
-    padding: 5px;
-    border: 1px solid var(--global-border-color);
+
+    // Ring only on the wide layout, matching timdesilva.me. In the narrow
+    // layout (also what high browser zoom triggers) the photo fills the circle
+    // with no ring — box-sizing is border-box, so leaving the padding on there
+    // would shrink the image inside its own frame.
+    @include breakpoint($large) {
+      padding: 5px;
+      border: 1px solid var(--global-border-color);
+    }
 
     // Force the portrait ratio that makes border-radius:50% read as an oval
     // rather than a circle, and crop whatever is supplied to fit. Without
