@@ -262,9 +262,19 @@ body:hover .visually-hidden button {
   color: #000;
 }
 
-// The [+] marker stays grey so the word "Abstract" carries the label.
+// The marker stays grey so the word "Abstract" carries the label. Its glyph
+// comes from CSS rather than the Markdown so it can flip with the open state:
+// [+] when collapsed, [−] when expanded, as on timdesilva.me.
 .page__content details > summary .toggle-mark {
   color: gray;
+
+  &::before {
+    content: "[+] ";
+  }
+}
+
+.page__content details[open] > summary .toggle-mark::before {
+  content: "[\2212] "; // U+2212 minus sign, visually paired with the +
 }
 
 .page__content details > summary::-webkit-details-marker {
@@ -328,6 +338,11 @@ body:hover .visually-hidden button {
    Apply with: <span class="medium">text</span> */
 .page__content .medium {
   font-weight: 375;
+}
+
+/* The job market line on the home page. */
+.page__content .jobmarket {
+  font-weight: 410;
 }
 
 
