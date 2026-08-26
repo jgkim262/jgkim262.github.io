@@ -304,13 +304,17 @@ body:hover .visually-hidden button {
   margin-top: 1em;
 }
 
-.teaching p {
+// Qualified with .page__content: the theme's `.page__content p` rule sets
+// margin-bottom 1.3em, sits later in the import order, and ties on
+// specificity — so a bare `.teaching p` never actually won. That is why
+// earlier margin tweaks here appeared to have no effect.
+.page__content .teaching p {
   margin-bottom: 0;
 }
 
-.teaching ul {
-  margin-top: 0.075em;   // half of the previous 0.15em
-  margin-bottom: 1.425em; // 75% of the previous 1.9em
+.page__content .teaching ul {
+  margin-top: 0.075em;
+  margin-bottom: 1.425em;
 }
 
 /* Teaching page: centred crimson course headings, with the term and the
