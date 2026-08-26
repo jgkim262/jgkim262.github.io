@@ -362,6 +362,13 @@ body:hover .visually-hidden button {
   font-weight: 410;
 }
 
+/* Programme lines on the teaching page (Executive MBA - MIT Sloan, ...).
+   520 needs the variable font load (wght@300..800) to render as a true
+   weight. Overrides the 700 the <strong> wrapper would otherwise give. */
+.page__content .program-title {
+  font-weight: 520;
+}
+
 /* A step down from the surrounding text. Apply with:
    <span class="smaller">text</span> */
 .page__content .smaller {
