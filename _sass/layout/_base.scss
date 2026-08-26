@@ -18,6 +18,10 @@ body {
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
   font-family: $global-font-family;
+  // Roboto Slab Light. timdesilva.me loads only weights 300 and 700, so its
+  // body text falls back to 300 and reads thinner than the 400 this template
+  // would otherwise use. Set explicitly rather than relying on that fallback.
+  font-weight: 300;
   line-height: 1.5;
 
   &.overflow--hidden {
