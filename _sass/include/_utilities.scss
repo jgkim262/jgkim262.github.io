@@ -401,7 +401,7 @@ body:hover .visually-hidden button {
    elsewhere (e.g. the teaching page's programme lines) is unaffected.
    Apply with: **Title**{: .paper-title} */
 .page__content .paper-title {
-  font-weight: 700;
+  font-weight: 600; // matches .paper-num, so title and [n] marker read as one
   color: #000;
 }
 
