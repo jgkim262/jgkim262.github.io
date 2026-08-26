@@ -298,6 +298,12 @@ body:hover .visually-hidden button {
 // Both the paragraph's bottom margin and the list's top margin are set,
 // because adjacent margins collapse to the larger of the two — leaving either
 // at its default would keep the gap open.
+// The first course heading sits right under the page's intro line, so it does
+// not need the full 2.5em that separates one course section from the next.
+.teaching > h2.course-title:first-child {
+  margin-top: 1em;
+}
+
 .teaching p {
   margin-bottom: 0;
 }
