@@ -21,9 +21,9 @@ This paper examines whether allowing non-CPAs to own an equity stake in CPA firm
 
 **[2] Does Offshoring the Accounting Function Affect Financial Reporting Quality?**{: .paper-title}<br>
 with [Nemit Shroff](https://mitsloan.mit.edu/faculty/directory/nemit-shroff){: .coauthor}, [Fabio Soares](https://mitsloan.mit.edu/programs/phd/fabio-da-silva-soares){: .coauthor}, and [Felix Vetter](https://mitsloan.mit.edu/faculty/directory/felix-w-vetter){: .coauthor}<br>
-Revise and resubmit at Management Science (Registered Report)
+**Revise and resubmit at Management Science (2025 PCAOB/Management Science Registered Report)**
+* <span class="muted">Presented:</span> MIT Sloan, 2025 PCAOB/Management Science Registered Reports Conference
 
-Presented at the 2025 PCAOB/Management Science Registered Reports Conference and MIT.
 
 **[3] Tax-Induced Distortion in Managerial Horizon**{: .paper-title}<br>
 with [Jen Choi](https://sites.google.com/view/jenchoi/home){: .coauthor} and [Rachel Yoon](https://sites.google.com/view/rsyoon/home){: .coauthor}
