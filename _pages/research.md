@@ -20,7 +20,6 @@ This paper examines whether allowing non-CPAs to own an equity stake in CPA firm
 ## Working Papers
 
 **[2] Does Offshoring the Accounting Function Affect Financial Reporting Quality?**
-
 with Nemit Shroff, Fabio Soares, and Felix Vetter
 
 *Revise and resubmit at Management Science (Registered Report)*
