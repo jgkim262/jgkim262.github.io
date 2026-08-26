@@ -12,8 +12,8 @@ This paper examines whether allowing non-CPAs to own an equity stake in CPA firm
 </details>
 
 * <span class="muted">Committee members:</span> [John Core](https://mitsloan.mit.edu/faculty/directory/john-e-core){: .coauthor}, [Nemit Shroff](https://mitsloan.mit.edu/faculty/directory/nemit-shroff){: .coauthor} <span class="muted">(chair)</span>, and [Andrew Sutherland](https://mitsloan.mit.edu/faculty/directory/andrew-gordon-sutherland){: .coauthor}
-* Award: 2026 Rutgers Accounting Doctoral Symposium Best Paper Award
-* Presented: 2026 KAAPA Summer Conference,  2026 Rutgers Accounting Doctoral Symposium, MIT Sloan
+* <span class="muted">Award:</span> 2026 Rutgers Accounting Doctoral Symposium Best Paper Award
+* <span class="muted">Presented:</span> 2026 KAAPA Summer Conference, 2026 Rutgers Accounting Doctoral Symposium, MIT Sloan
 
 
 
