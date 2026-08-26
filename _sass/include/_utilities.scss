@@ -231,6 +231,15 @@ body:hover .visually-hidden button {
   vertical-align: -0.28em;
 }
 
+/* Pull the abstract toggle closer to the entry above it. The preceding
+   paragraph carries the theme's 1.3em bottom margin, and margins between it
+   and <details> collapse to the larger of the two, so setting margin-top: 0
+   here would change nothing — a negative value is what actually closes the
+   gap. */
+.page__content details {
+  margin-top: -0.75em;
+}
+
 /* Abstract toggles on the research page.
    Hides the browser's default disclosure triangle while keeping <details>
    fully functional, and gives the summary a soft grey chip like
