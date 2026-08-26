@@ -154,8 +154,8 @@
   }
 
   img {
-    // 175px is both the template default and the value timdesilva.me uses.
-    max-width: 175px;
+    // 5% above the 175px template/timdesilva.me default, per Jason's taste.
+    max-width: 184px;
     border-radius: 50%;
 
     // Ring only on the wide layout, matching timdesilva.me. In the narrow
