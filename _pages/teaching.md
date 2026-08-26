@@ -8,11 +8,11 @@ author_profile: true
 ## Financial Accounting
 {: .course-title}
 
-**Executive MBA - MIT Sloan**
+**Executive MBA - MIT Sloan**{: .semibold}
 
 * Spring 2025 - TA for Professor [Nemit Shroff](https://mitsloan.mit.edu/faculty/directory/nemit-shroff){: .coauthor}
 
-**Master of Finance - MIT Sloan**{: .extrabold}
+**Master of Finance - MIT Sloan**{: .semibold}
 
 * Summer 2024 - TA for Professor [Andrew Sutherland](https://mitsloan.mit.edu/faculty/directory/andrew-gordon-sutherland){: .coauthor}
 * Summer 2023 - TA for Professor [Rodrigo Verdi](https://mitsloan.mit.edu/faculty/directory/rodrigo-verdi){: .coauthor}
@@ -20,18 +20,18 @@ author_profile: true
 ## Managerial Accounting
 {: .course-title}
 
-**Executive MBA - Seoul National University**{: .extrabold}
+**Executive MBA - Seoul National University**{: .semibold}
 
 * 2020 - TA for Professor [Jae Yong Shin](https://cba.snu.ac.kr/en/research/faculty/professor?major=7&idx=1325){: .coauthor}
 
-**Undergraduate - Seoul National University**{: .extrabold}
+**Undergraduate - Seoul National University**{: .semibold}
 
 * 2019 - TA for Professor [Jae Yong Shin](https://cba.snu.ac.kr/en/research/faculty/professor?major=7&idx=1325){: .coauthor}
 
 ## Doctoral Seminar
 {: .course-title}
 
-**Doctoral Seminar in Accounting - MIT Sloan**{: .extrabold}
+**Doctoral Seminar in Accounting - MIT Sloan**{: .semibold}
 
 * Fall 2025 - TA for Professors [John Core](https://mitsloan.mit.edu/faculty/directory/john-e-core){: .coauthor} and [Andrew Sutherland](https://mitsloan.mit.edu/faculty/directory/andrew-gordon-sutherland){: .coauthor}
 * Spring 2025 - TA for Professor [Nemit Shroff](https://mitsloan.mit.edu/faculty/directory/nemit-shroff){: .coauthor}
