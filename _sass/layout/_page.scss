@@ -29,7 +29,7 @@
   // keeping a little breathing room at the right edge.
   &--wide {
     @include breakpoint($large) {
-      padding-right: 5%;
+      padding-right: 8.5%;
     }
   }
 
