@@ -27,7 +27,7 @@ with [Nemit Shroff](https://mitsloan.mit.edu/faculty/directory/nemit-shroff){: .
 Presented at the 2025 PCAOB/Management Science Registered Reports Conference and MIT.
 
 **[3] Tax-Induced Distortion in Managerial Horizon**{: .paper-title}<br>
-with Jen Choi and Rachel Yoon
+with [Jen Choi](https://sites.google.com/view/jenchoi/home){: .coauthor} and [Rachel Yoon](https://sites.google.com/view/rsyoon/home){: .coauthor}
 
 *Preparing for submission*
 
@@ -36,7 +36,7 @@ Presented at the 2026 FARS Midyear Meeting and the 2026 MAS Midyear Meeting.
 ## Work in Progress
 
 **[4] How Do Audit Partner Retirements Reshape the Audit Market?**{: .paper-title}<br>
-with Joseph Moran and Joseph Weber
+with [Joseph Moran](https://mitsloan.mit.edu/faculty/directory/joseph-moran){: .coauthor} and [Joseph Weber](https://mitsloan.mit.edu/faculty/directory/joseph-p-weber){: .coauthor}
 
 **[5] Before the Government Speaks: Insider Trading on Federal Contract Awards**{: .paper-title}<br>
 with Ji Eon Kim
