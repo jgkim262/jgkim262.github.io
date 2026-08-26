@@ -19,7 +19,7 @@ This paper examines whether allowing non-CPAs to own an equity stake in CPA firm
 
 ## Working Papers
 
-***[2] Does Offshoring the Accounting Function Affect Financial Reporting Quality?***
+**[2] Does Offshoring the Accounting Function Affect Financial Reporting Quality?**
 
 with Nemit Shroff, Fabio Soares, and Felix Vetter
 
@@ -27,7 +27,7 @@ with Nemit Shroff, Fabio Soares, and Felix Vetter
 
 Presented at the 2025 PCAOB/Management Science Registered Reports Conference and MIT.
 
-**Tax-Induced Distortion in Managerial Horizon**
+**[3] Tax-Induced Distortion in Managerial Horizon**
 with Jen Choi and Rachel Yoon
 
 *Preparing for submission*
@@ -36,8 +36,8 @@ Presented at the 2026 FARS Midyear Meeting and the 2026 MAS Midyear Meeting.
 
 ## Work in Progress
 
-**How Do Audit Partner Retirements Reshape the Audit Market?**
+**[4] How Do Audit Partner Retirements Reshape the Audit Market?**
 with Joseph Moran and Joseph Weber
 
-**Before the Government Speaks: Insider Trading on Federal Contract Awards**
+**[5] Before the Government Speaks: Insider Trading on Federal Contract Awards**
 with Ji Eon Kim
