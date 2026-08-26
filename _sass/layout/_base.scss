@@ -15,7 +15,9 @@ body {
   background-color: var(--global-bg-color);
 
   margin: 0;
-  padding: $masthead-height 0 0;
+  // No top padding: the masthead is in normal flow, so nothing needs to be
+  // reserved for it. Matches timdesilva.me.
+  padding: 0;
   padding-bottom: 9em;
   font-family: $global-font-family;
   // Roboto Slab Light. timdesilva.me loads only weights 300 and 700, so its

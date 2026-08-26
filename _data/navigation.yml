@@ -4,11 +4,11 @@ main:
   - title: "Home"
     url: /
 
-  - title: "CV"
-    url: https://drive.google.com/file/d/1Ww9G7IFQVgv3aQ1zozFxzYKNGubODSyO/view
-
   - title: "Research"
     url: /research/
 
   - title: "Teaching"
     url: /teaching/
+
+  - title: "CV"
+    url: https://drive.google.com/file/d/1Ww9G7IFQVgv3aQ1zozFxzYKNGubODSyO/view
