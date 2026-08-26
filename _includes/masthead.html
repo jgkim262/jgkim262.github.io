@@ -12,7 +12,12 @@
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              {%- comment -%}
+                External nav items (currently the CV, hosted on Google Drive)
+                open in a new tab so visitors do not lose the site.
+                rel="noopener" is required with target="_blank".
+              {%- endcomment -%}
+              <a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank" rel="noopener"{% endif %}>{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>
