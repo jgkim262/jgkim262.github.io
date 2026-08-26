@@ -345,6 +345,12 @@ body:hover .visually-hidden button {
   font-weight: 410;
 }
 
+/* A step down from the surrounding text. Apply with:
+   <span class="smaller">text</span> */
+.page__content .smaller {
+  font-size: 0.95em;
+}
+
 
 /* Research topics called out in running text. Apply with:
    <span class="topic">auditing</span> */
