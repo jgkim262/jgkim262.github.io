@@ -258,6 +258,26 @@ body:hover .visually-hidden button {
   background: #e7e9e9;
 }
 
+/* Teaching page: centred crimson course headings, with the term and the
+   connecting words in muted tones so the professors' names carry the line.
+   Apply the heading class with kramdown's block IAL on the following line:
+   ## Financial Accounting
+   {: .course-title} */
+.page__content h2.course-title {
+  text-align: center;
+  color: #750014;
+  margin-top: 2.5em;
+  margin-bottom: 1.25em;
+}
+
+.page__content .term {
+  color: #8a6d3b;
+}
+
+.page__content .muted {
+  color: gray;
+}
+
 /* Opt-in underline for individual links, since body links are underline-free
    by default. Apply with: [text](url){: .underline} */
 .page__content a.underline {

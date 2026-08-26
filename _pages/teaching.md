@@ -3,21 +3,36 @@ permalink: /teaching/
 author_profile: true
 ---
 
-At MIT Sloan I have led recitation sessions for the required financial accounting course for Executive MBA and Master of Finance students, serving more than 240 students with a wide range of professional and accounting backgrounds.
+As a teaching assistant (TA) for the courses below, I led recitation sessions and held office hours.
 
-## MIT Sloan School of Management
+## Financial Accounting
+{: .course-title}
 
-**Financial Accounting**
-- Teaching Assistant for Professor Nemit Shroff (Executive MBA), 2025
-- Teaching Assistant for Professor Andrew Sutherland (Master of Finance), 2024
-- Teaching Assistant for Professor Rodrigo Verdi (Master of Finance), 2023
+**Executive MBA - MIT Sloan**
 
-**Doctoral Seminar in Accounting**
-- Teaching Assistant for Professor John Core and Professor Andrew Sutherland, 2025
-- Teaching Assistant for Professor Nemit Shroff, 2025
-- Teaching Assistant for Professor Rachel Hayes, 2024
+* <span class="term">Spring 2025</span> <span class="muted">- TA for Professor</span> Nemit Shroff
 
-## Seoul National University
+**Master of Finance - MIT Sloan**
 
-**Managerial Accounting**
-- Teaching Assistant for Professor Jae Yong Shin (undergraduate and Executive MBA), 2020–2021
+* <span class="term">Summer 2024</span> <span class="muted">- TA for Professor</span> Andrew Sutherland
+* <span class="term">Summer 2023</span> <span class="muted">- TA for Professor</span> Rodrigo Verdi
+
+## Managerial Accounting
+{: .course-title}
+
+**Executive MBA - Seoul National University**
+
+* <span class="term">2020</span> <span class="muted">- TA for Professor</span> Jae Yong Shin
+
+**Undergraduate - Seoul National University**
+
+* <span class="term">2019</span> <span class="muted">- TA for Professor</span> Jae Yong Shin
+
+## Doctoral Seminar
+{: .course-title}
+
+**Doctoral Seminar in Accounting - MIT Sloan**
+
+* <span class="term">Fall 2025</span> <span class="muted">- TA for Professors</span> John Core <span class="muted">and</span> Andrew Sutherland
+* <span class="term">Spring 2025</span> <span class="muted">- TA for Professor</span> Nemit Shroff
+* <span class="term">Fall 2024</span> <span class="muted">- TA for Professor</span> Rachel Hayes <span class="muted">(during her visit at MIT)</span>
