@@ -1,5 +1,6 @@
 ---
 permalink: /research/
+wide: true
 author_profile: true
 ---
 

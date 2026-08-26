@@ -20,11 +20,17 @@
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
-    // suffix(2 of 12) is omitted on purpose. It adds padding-right: 16.95%,
-    // reserving an empty right gutter that makes the text column noticeably
-    // narrower. timdesilva.me's pages use the theme's `archive` layout, whose
-    // .archive rule has the same width and left padding but no suffix — which
-    // is the entire reason his content reads wider than this template's.
+    @include suffix(2 of 12);
+  }
+
+  // Opt-in wider column, set per page with `wide: true` in front matter.
+  // suffix(2 of 12) above reserves an empty right gutter of ~16.95%; dropping
+  // it gives the same geometry as the theme's `archive` layout, which is what
+  // timdesilva.me's pages use and why his text column reads wider.
+  &--wide {
+    @include breakpoint($large) {
+      padding-right: 0;
+    }
   }
 
   .page__inner-wrap {
