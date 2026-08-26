@@ -5,6 +5,9 @@
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
+          <li class="masthead__menu-item masthead__logo persist">
+            <img src="{{ base_path }}/images/mit-logo.svg" alt="MIT" />
+          </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
