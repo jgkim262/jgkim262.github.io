@@ -24,12 +24,12 @@
   }
 
   // Opt-in wider column, set per page with `wide: true` in front matter.
-  // suffix(2 of 12) above reserves an empty right gutter of ~16.95%; dropping
-  // it gives the same geometry as the theme's `archive` layout, which is what
-  // timdesilva.me's pages use and why his text column reads wider.
+  // suffix(2 of 12) above reserves an empty right gutter of ~16.95%; this
+  // narrows it to 5%, so the column runs wider than the default pages while
+  // keeping a little breathing room at the right edge.
   &--wide {
     @include breakpoint($large) {
-      padding-right: 0;
+      padding-right: 5%;
     }
   }
 
