@@ -5,7 +5,7 @@ author_profile: true
 
 ## Job Market Paper
 
-**[1] [Does Ownership Structure Affect Audit Quality? Evidence from Non-CPA Ownership Provisions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7261201){: .underline}**{: .paper-title}
+**<span class="paper-num">[1]</span> [Does Ownership Structure Affect Audit Quality? Evidence from Non-CPA Ownership Provisions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7261201){: .underline}**{: .paper-title}
 <details markdown="1"><summary>[+] Abstract</summary>
 
 This paper examines whether allowing non-CPAs to own an equity stake in CPA firms affects audit quality. Exploiting the staggered adoption of state statutes that allow non-CPA ownership in audit entities, I compare audit quality between clients whose auditors operate in adopting states and those whose auditors operate in non-adopting states. I study three audit settings: public company financial statement audits, nonprofit organization (NPO) financial statement audits, and employee benefit plan (EBP) audits. Across all three settings, I find that audit quality declines following adoption, with the declines concentrated among clients audited by small audit firms. Adoption is also associated with an increase in the number of audit firms operating in treated states and lower audit fees in NPO and EBP audits. In contrast, public company audit fees remain unchanged. These results indicate that fee pressure arises primarily in markets dominated by small audit firms. Taken together, the evidence suggests that non-CPA ownership weakens professional accountability within firms and intensifies audit market competition, affecting both audit quality and pricing.
@@ -19,7 +19,7 @@ This paper examines whether allowing non-CPAs to own an equity stake in CPA firm
 
 ## Working Papers
 
-**[2] Does Offshoring the Accounting Function Affect Financial Reporting Quality?**{: .paper-title}<br>
+**<span class="paper-num">[2]</span> Does Offshoring the Accounting Function Affect Financial Reporting Quality?**{: .paper-title}<br>
 <span class="muted">with</span> [Nemit Shroff](https://mitsloan.mit.edu/faculty/directory/nemit-shroff){: .coauthor}, [Fabio Soares](https://mitsloan.mit.edu/programs/phd/fabio-da-silva-soares){: .coauthor}, and [Felix Vetter](https://mitsloan.mit.edu/faculty/directory/felix-w-vetter){: .coauthor}<br>
 **Revise and Resubmit at Management Science**{: .paper-status} (***2025 PCAOB/Management Science Registered Report***)
 <details markdown="1"><summary>[+] Abstract</summary>
@@ -30,7 +30,7 @@ This registered report proposes to examine whether offshoring a company’s acco
 * Presented: MIT Sloan, 2025 PCAOB/Management Science Registered Reports Conference
 
 
-**[3] Tax-Induced Distortion in Managerial Horizon**{: .paper-title}<br>
+**<span class="paper-num">[3]</span> Tax-Induced Distortion in Managerial Horizon**{: .paper-title}<br>
 <span class="muted">with</span> [Jen Choi](https://sites.google.com/view/jenchoi/home){: .coauthor} and [Rachel Yoon](https://sites.google.com/view/rsyoon/home){: .coauthor}
 <details markdown="1"><summary>[+] Abstract</summary>
 
@@ -41,8 +41,8 @@ This paper examines whether boards respond to tax-induced changes in the incenti
 
 ## Work in Progress
 
-**[4] How Do Audit Partner Retirements Reshape the Audit Market?**{: .paper-title}<br>
+**<span class="paper-num">[4]</span> How Do Audit Partner Retirements Reshape the Audit Market?**{: .paper-title}<br>
 <span class="muted">with</span> [Joseph Moran](https://mitsloan.mit.edu/faculty/directory/joseph-moran){: .coauthor} and [Joseph Weber](https://mitsloan.mit.edu/faculty/directory/joseph-p-weber){: .coauthor}
 
-**[5] Before the Government Speaks: Insider Trading on Federal Contract Awards**{: .paper-title}<br>
+**<span class="paper-num">[5]</span> Before the Government Speaks: Insider Trading on Federal Contract Awards**{: .paper-title}<br>
 <span class="muted">with</span> Ji Eon Kim
