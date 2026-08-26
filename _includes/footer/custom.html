@@ -3,4 +3,19 @@
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 
+<!--
+  Open off-site links in a new tab so visitors keep the site open behind them.
+  Compares hostnames rather than matching on "http", so internal links such as
+  /research/ are left alone and any coauthor or paper link added later is
+  picked up automatically. rel="noopener" accompanies target="_blank".
+-->
+<script>
+  document.querySelectorAll('.page__content a[href]').forEach(function (a) {
+    if (a.hostname && a.hostname !== window.location.hostname) {
+      a.target = '_blank';
+      a.rel = 'noopener';
+    }
+  });
+</script>
+
 <!-- end custom footer snippets -->
