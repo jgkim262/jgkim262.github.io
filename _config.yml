@@ -27,7 +27,8 @@ author:
   pronouns         : # example: "she/her"
   bio              : "Ph.D. Candidate in<br>Accounting"
   location         : "Cambridge, MA"
-  employer         : # blank hides the line in the sidebar
+  employer         : "MIT"   # blank hides the line in the sidebar
+  employer_url     : "https://mitsloan.mit.edu/programs/phd/jason-kim"
   uri              : # URL
   email            : "gwanhee@mit.edu"
 

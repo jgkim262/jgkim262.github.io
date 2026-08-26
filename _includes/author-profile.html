@@ -28,7 +28,18 @@
         <li class="author__desktop"><i class="fas fa-fw fa-location-pin icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+        {%- comment -%}
+          Linked when author.employer_url is set in _config.yml, plain text
+          otherwise. No author__desktop class here, unlike the location row
+          above, so the link stays reachable on small screens too.
+        {%- endcomment -%}
+        <li>
+          {% if author.employer_url %}
+            <a href="{{ author.employer_url }}"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a>
+          {% else %}
+            <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}
+          {% endif %}
+        </li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
