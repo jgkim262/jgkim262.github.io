@@ -254,6 +254,17 @@ body:hover .visually-hidden button {
   background: #f2f3f3;
   border-radius: 3px;
   font-size: 0.9375em; // 15px against the 16px base, one point down
+
+  // timdesilva.me builds this control as an unstyled <button>, so its label
+  // inherits the browser's default UI font and near-black button text rather
+  // than the page's Roboto Slab at #494e52. Reproduced explicitly here.
+  font-family: $sans-serif;
+  color: #000;
+}
+
+// The [+] marker stays grey so the word "Abstract" carries the label.
+.page__content details > summary .toggle-mark {
+  color: gray;
 }
 
 .page__content details > summary::-webkit-details-marker {
