@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-<span class="xsmall">&nbsp;</span>
+<span class="smaller">&nbsp;</span>
 
 Jason Kim is a Ph.D. candidate in Accounting at the **[MIT Sloan School of Management](https://mitsloan.mit.edu/){: .extrabold}**, and he is on the <span class="jobmarket">2026–2027 academic job market</span>.
 
