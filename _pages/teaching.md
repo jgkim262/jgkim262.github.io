@@ -8,7 +8,7 @@ author_profile: true
 ## Financial Accounting
 {: .course-title}
 
-**Executive MBA - MIT Sloan**{: .extrabold}
+**Executive MBA - MIT Sloan**
 
 * Spring 2025 - TA for Professor [Nemit Shroff](https://mitsloan.mit.edu/faculty/directory/nemit-shroff){: .coauthor}
 
