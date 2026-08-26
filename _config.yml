@@ -25,7 +25,7 @@ author:
   avatar           : "profile_20260826_v4.png"
   name             : "Jason Kim"
   pronouns         : # example: "she/her"
-  bio              : "Ph.D. Candidate in<br>Accounting"
+  bio              : "Ph.D. Candidate in Accounting"
   location         : "Cambridge, MA"
   employer         : "MIT"   # blank hides the line in the sidebar
   employer_url     : "https://mitsloan.mit.edu/programs/phd/jason-kim"
