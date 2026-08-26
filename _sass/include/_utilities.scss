@@ -290,7 +290,7 @@ body:hover .visually-hidden button {
    Apply in Markdown with kramdown's inline attribute syntax:
    [Name](url){: .coauthor} */
 .page__content a.coauthor {
-  color: gray;
+  color: var(--global-text-color);
   text-decoration: none;
 }
 
