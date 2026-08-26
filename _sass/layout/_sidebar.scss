@@ -13,9 +13,8 @@
   @include clearfix();
   margin-bottom: 1em;
 
-  @media (orientation: portrait) {
-    margin-top: 1em;
-  }
+  // No margin-top: timdesilva.me's .sidebar has none, and the template's
+  // portrait-orientation margin pushed the avatar below the first line of text.
 
   // The template pins the sidebar with position: fixed here. That is removed
   // on purpose: a percentage width on a fixed element resolves against the

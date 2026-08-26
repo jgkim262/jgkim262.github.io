@@ -2,30 +2,21 @@
    MASTHEAD
    ========================================================================== */
 
+// Matches _sass/_masthead.scss in timhdesilva/timhdesilva.github.io exactly.
+// The template pins this to the viewport with position:fixed, plus
+// background/height/width and an ::after pseudo-border to make that work.
+// All of that is dropped: in normal flow a plain border-bottom does the job,
+// and the pinning was what pushed the sticky sidebar out of line with the
+// text column beside it.
 .masthead {
-  // In normal flow, as on timdesilva.me. The template pins this to the
-  // viewport, which forces body { padding-top: 70px } to compensate and makes
-  // the sticky sidebar resolve its offset against the viewport — pushing the
-  // avatar down relative to the text column beside it.
   position: relative;
-  background: var(--global-bg-color);
-  height: fit-content;
-  width: 100%;
+  border-bottom: 1px solid var(--global-border-color);
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    height: 1px;
-    background: var(--global-border-color);
-    width: 100%;
-  }
 
   &__inner-wrap {
     @include container;
