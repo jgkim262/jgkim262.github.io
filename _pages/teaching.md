@@ -24,11 +24,11 @@ As a teaching assistant (TA) for the courses below, I led recitation sessions an
 
 **Executive MBA - Seoul National University**{: .extrabold}
 
-* 2020 - TA for Professor Jae Yong Shin
+* 2020 - TA for Professor [Jae Yong Shin](https://cba.snu.ac.kr/en/research/faculty/professor?major=7&idx=1325){: .coauthor}
 
 **Undergraduate - Seoul National University**{: .extrabold}
 
-* 2019 - TA for Professor Jae Yong Shin
+* 2019 - TA for Professor [Jae Yong Shin](https://cba.snu.ac.kr/en/research/faculty/professor?major=7&idx=1325){: .coauthor}
 
 ## Doctoral Seminar
 {: .course-title}
