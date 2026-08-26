@@ -279,6 +279,13 @@ body:hover .visually-hidden button {
   color: gray;
 }
 
+/* Research topics called out in running text. Apply with:
+   <span class="topic">auditing</span> */
+.page__content .topic {
+  color: #750014;
+  font-weight: 700;
+}
+
 /* Latin phrases (summa cum laude and the like) set in Times, one point down
    from the surrounding Roboto Slab. Apply with:
    <em class="latin">summa cum laude</em> */
