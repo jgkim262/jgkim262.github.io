@@ -287,7 +287,8 @@ body:hover .visually-hidden button {
    Apply the heading class with kramdown's block IAL on the following line:
    ## Financial Accounting
    {: .course-title} */
-.page__content h2.course-title {
+.page__content h2.course-title,
+.page__content h2.section-title {
   text-align: center;
   color: #750014;
   margin-top: 2.5em;
