@@ -259,6 +259,20 @@ body:hover .visually-hidden button {
   background: #e7e9e9;
 }
 
+/* Teaching page list spacing. The theme gives every paragraph 1.3em of bottom
+   margin, which puts more air between a programme heading and its own list
+   than between that list and the next heading — so each list appears to belong
+   to the heading below it. Tighten the heading-to-list gap and open up the
+   gap before the next programme. Scoped to .teaching so the research page's
+   lists keep the theme defaults. */
+.teaching p {
+  margin-bottom: 0.35em;
+}
+
+.teaching ul {
+  margin-bottom: 1.9em;
+}
+
 /* Teaching page: centred crimson course headings, with the term and the
    connecting words in muted tones so the professors' names carry the line.
    Apply the heading class with kramdown's block IAL on the following line:

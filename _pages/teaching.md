@@ -5,6 +5,8 @@ author_profile: true
 
 As a teaching assistant (TA) for the courses below, I led recitation sessions and held office hours.
 
+<div class="teaching" markdown="1">
+
 ## Financial Accounting
 {: .course-title}
 
@@ -22,7 +24,7 @@ As a teaching assistant (TA) for the courses below, I led recitation sessions an
 
 **Executive MBA - Seoul National University**
 
-* 2020- TA for Professor Jae Yong Shin
+* 2020 - TA for Professor Jae Yong Shin
 
 **Undergraduate - Seoul National University**
 
@@ -36,3 +38,5 @@ As a teaching assistant (TA) for the courses below, I led recitation sessions an
 * Fall 2025 - TA for Professors John Core and Andrew Sutherland
 * Spring 2025 - TA for Professor Nemit Shroff
 * Fall 2024 - TA for Professor Rachel Hayes (during her visit at MIT)
+
+</div>
