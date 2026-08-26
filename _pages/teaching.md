@@ -26,7 +26,7 @@ As a teaching assistant (TA) for the courses below, I led recitation sessions an
 
 **Undergraduate - Seoul National University**
 
-* 2019 - TA for Professor</span> Jae Yong Shin
+* 2019 - TA for Professor Jae Yong Shin
 
 ## Doctoral Seminar
 {: .course-title}
