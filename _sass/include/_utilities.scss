@@ -285,11 +285,15 @@ body:hover .visually-hidden button {
    to the heading below it. Tighten the heading-to-list gap and open up the
    gap before the next programme. Scoped to .teaching so the research page's
    lists keep the theme defaults. */
+// Both the paragraph's bottom margin and the list's top margin are set,
+// because adjacent margins collapse to the larger of the two — leaving either
+// at its default would keep the gap open.
 .teaching p {
-  margin-bottom: 0.35em;
+  margin-bottom: 0;
 }
 
 .teaching ul {
+  margin-top: 0.15em;
   margin-bottom: 1.9em;
 }
 
