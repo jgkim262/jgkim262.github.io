@@ -450,6 +450,7 @@ body:hover .visually-hidden button {
   background: #f2f3f3;
   padding: 1.25em 1.5em;
   margin-top: 0;
+  font-size: 0.85em; // abstract body reads a step smaller than page text
 }
 
 /* social icons*/
