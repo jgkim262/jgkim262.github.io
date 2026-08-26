@@ -39,8 +39,8 @@ $sidebar-screen-min-width   : 1024px;
     --global-link-color                 : #750014;
     --global-link-color-hover           : #{mix(#000, #750014, 25%)};
     --global-link-color-visited         : #750014;
-    --global-masthead-link-color        : #750014;
-    --global-masthead-link-color-hover  : #{mix(#000, #750014, 25%)};    
+    --global-masthead-link-color        : #{$dark-gray};
+    --global-masthead-link-color-hover  : #{mix(#000, $gray, 25%)};    
     --global-text-color                 : #494e52;  // matches timdesilva.me
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
