@@ -305,6 +305,15 @@ body:hover .visually-hidden button {
    Apply with: **Title**{: .paper-title} */
 .page__content .paper-title {
   font-weight: 800;
+  color: #000;
+}
+
+/* Publication status lines (e.g. "Revise and resubmit at ..."). Same weight as
+   a paper title but at body colour, so the black titles stay dominant.
+   Apply with: **Revise and resubmit at ...**{: .paper-status} */
+.page__content .paper-status {
+  font-weight: 800;
+  color: var(--global-text-color);
 }
 
 /* Opt-in underline for individual links, since body links are underline-free
