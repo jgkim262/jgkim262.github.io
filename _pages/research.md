@@ -15,7 +15,7 @@ This paper examines whether allowing non-CPAs to own an equity stake in CPA firm
 * Award: 2026 Rutgers Accounting Doctoral Symposium Best Paper Award
 * Presented: 2026 KAAPA Summer Conference, 2026 Rutgers Accounting Doctoral Symposium, MIT Sloan
 
-<br>
+
 
 ## Working Papers
 {: .section-title}
@@ -39,7 +39,7 @@ This paper examines whether boards respond to tax-induced changes in the incenti
 
 * Presented: 2026 FARS Midyear Meeting, 2026 MAS Midyear Meeting
 
-<br>
+
 
 ## Work in Progress
 {: .section-title}
