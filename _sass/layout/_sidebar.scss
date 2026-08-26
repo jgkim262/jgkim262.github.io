@@ -154,7 +154,8 @@
   }
 
   img {
-    max-width: 175px;
+    // Template default is 175px (which is also what timdesilva.me uses).
+    max-width: 150px;
     border-radius: 50%;
     padding: 5px;
     border: 1px solid var(--global-border-color);
