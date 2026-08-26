@@ -330,16 +330,6 @@ body:hover .visually-hidden button {
   font-weight: 400;
 }
 
-/* MIT logo sitting to the left of the nav links. Height is matched to the
-   nav text and the horizontal margin mirrors .greedy-nav a's 1rem so it sits
-   on the same rhythm as the links beside it. */
-.masthead__logo img {
-  display: block;
-  height: 1.35em;
-  width: auto;
-  margin: 0 1rem;
-  padding: 0.5rem 0;
-}
 
 /* Research topics called out in running text. Apply with:
    <span class="topic">auditing</span> */
