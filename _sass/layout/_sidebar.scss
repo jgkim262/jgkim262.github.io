@@ -159,6 +159,15 @@
     border-radius: 50%;
     padding: 5px;
     border: 1px solid var(--global-border-color);
+
+    // Force the portrait ratio that makes border-radius:50% read as an oval
+    // rather than a circle, and crop whatever is supplied to fit. Without
+    // this the shape would follow the uploaded file's own proportions, so a
+    // square photo would render as a circle. object-position sits above
+    // centre because faces sit in the upper half of a headshot.
+    aspect-ratio: 0.88;
+    object-fit: cover;
+    object-position: center 30%;
   }
 }
 
