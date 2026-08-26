@@ -27,10 +27,7 @@ with [Nemit Shroff](https://mitsloan.mit.edu/faculty/directory/nemit-shroff){: .
 
 **[3] Tax-Induced Distortion in Managerial Horizon**{: .paper-title}<br>
 with [Jen Choi](https://sites.google.com/view/jenchoi/home){: .coauthor} and [Rachel Yoon](https://sites.google.com/view/rsyoon/home){: .coauthor}
-
-*Preparing for submission*
-
-Presented at the 2026 FARS Midyear Meeting and the 2026 MAS Midyear Meeting.
+* <span class="muted">Presented:</span> 2026 FARS Midyear Meeting, 2026 MAS Midyear Meeting
 
 ## Work in Progress
 
