@@ -47,4 +47,4 @@ This paper examines whether boards respond to tax-induced changes in the incenti
 <span class="muted">with</span> [Joseph Moran](https://mitsloan.mit.edu/faculty/directory/joseph-moran){: .coauthor} and [Joseph Weber](https://mitsloan.mit.edu/faculty/directory/joseph-p-weber){: .coauthor}
 
 **<span class="paper-num">[5]</span> Before the Government Speaks: Insider Trading on Federal Contract Awards**{: .paper-title}<br>
-<span class="muted">with</span> <span class="coauthor">Ji Eon Kim</span>
+<span class="muted">with</span> [Ji Eon Kim](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7090769){: .coauthor}
