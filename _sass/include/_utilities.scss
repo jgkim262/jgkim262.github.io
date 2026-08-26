@@ -361,6 +361,11 @@ body:hover .visually-hidden button {
   font-size: 0.95em;
 }
 
+/* A step below .smaller. Apply with: <span class="xsmall">text</span> */
+.page__content .xsmall {
+  font-size: 0.85em;
+}
+
 
 /* Research topics called out in running text. Apply with:
    <span class="topic">auditing</span> */
