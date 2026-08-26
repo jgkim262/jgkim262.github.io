@@ -32,6 +32,11 @@ This registered report proposes to examine whether offshoring a company’s acco
 
 **[3] Tax-Induced Distortion in Managerial Horizon**{: .paper-title}<br>
 with [Jen Choi](https://sites.google.com/view/jenchoi/home){: .coauthor} and [Rachel Yoon](https://sites.google.com/view/rsyoon/home){: .coauthor}
+<details markdown="1"><summary>[+] Abstract</summary>
+
+This paper examines whether boards respond to tax-induced changes in the incentive horizon they design, arising from the differential tax treatment of CEOs’ short-term incentives (e.g., bonuses or performance-vesting conditions of equity awards) and long-term incentives (e.g., gains from equity awards). Using staggered changes in state-level ordinary income and long-term capital gains tax rates, we find that boards do not adjust incentive weights in a timely manner. Nonetheless, CEOs do respond to these incentive changes. Specifically, tax-induced decreases in the after-tax weight on long-horizon incentives lead CEOs to engage in more myopic behavior, whereas increases in the after-tax weight on long-horizon incentives mitigate such behavior. The effect of after-tax weights is stronger when the affected pay component constitutes a larger share of CEOs’ pay-for-performance sensitivity. Competitive product markets mitigate the extent of myopic behavior. Overall, our results suggest that taxes distort the realized, after-tax composition of short- and long-term incentives, exogenously shifting the balance of horizons designed by the board.
+</details>
+
 * <span class="muted">Presented:</span> 2026 FARS Midyear Meeting, 2026 MAS Midyear Meeting
 
 ## Work in Progress
