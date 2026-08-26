@@ -35,7 +35,7 @@
         {%- endcomment -%}
         <li>
           {% if author.employer_url %}
-            <a href="{{ author.employer_url }}"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a>
+            <a href="{{ author.employer_url }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a>
           {% else %}
             <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}
           {% endif %}
