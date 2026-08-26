@@ -309,8 +309,8 @@ body:hover .visually-hidden button {
 }
 
 .teaching ul {
-  margin-top: 0.15em;
-  margin-bottom: 1.9em;
+  margin-top: 0.075em;   // half of the previous 0.15em
+  margin-bottom: 1.425em; // 75% of the previous 1.9em
 }
 
 /* Teaching page: centred crimson course headings, with the term and the
