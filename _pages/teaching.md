@@ -37,6 +37,5 @@ As a teaching assistant (TA) for the courses below, I led recitation sessions an
 
 * Fall 2025 - TA for Professors [John Core](https://mitsloan.mit.edu/faculty/directory/john-e-core){: .coauthor} and [Andrew Sutherland](https://mitsloan.mit.edu/faculty/directory/andrew-gordon-sutherland){: .coauthor}
 * Spring 2025 - TA for Professor [Nemit Shroff](https://mitsloan.mit.edu/faculty/directory/nemit-shroff){: .coauthor}
-* Fall 2024 - TA for Professor Rachel Hayes (during her visit at MIT)
 
 </div>
