@@ -4,9 +4,7 @@ author_profile: true
 ---
 
 As a teaching assistant (TA) for the courses below, I led recitation sessions and held office hours.
-
 <div class="teaching" markdown="1">
-
 ## Financial Accounting
 {: .course-title}
 
