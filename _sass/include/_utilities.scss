@@ -279,6 +279,11 @@ body:hover .visually-hidden button {
   color: gray;
 }
 
+/* Heavier than the 700 that ** gives. Apply with: [text](url){: .extrabold} */
+.page__content .extrabold {
+  font-weight: 800;
+}
+
 /* Research topics called out in running text. Apply with:
    <span class="topic">auditing</span> */
 .page__content .topic {
