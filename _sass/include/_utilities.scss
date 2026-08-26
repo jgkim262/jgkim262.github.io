@@ -258,6 +258,12 @@ body:hover .visually-hidden button {
   background: #e7e9e9;
 }
 
+/* Opt-in underline for individual links, since body links are underline-free
+   by default. Apply with: [text](url){: .underline} */
+.page__content a.underline {
+  text-decoration: underline;
+}
+
 /* People's names (committee members, coauthors) linked to their pages.
    Grey and unadorned, matching timdesilva.me, so the label beside them stays
    the more prominent element and the names do not compete with paper titles.

@@ -5,7 +5,7 @@ author_profile: true
 
 ## Job Market Paper
 
-**[Does Ownership Structure Affect Audit Quality? Evidence from Non-CPA Ownership Provisions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7261201)**
+**[Does Ownership Structure Affect Audit Quality? Evidence from Non-CPA Ownership Provisions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7261201){: .underline}**
 <details markdown="1"><summary>[+] Abstract</summary>
 
 This paper examines whether allowing non-CPAs to own an equity stake in CPA firms affects audit quality. Exploiting the staggered adoption of state statutes that allow non-CPA ownership in audit entities, I compare audit quality between clients whose auditors operate in adopting states and those whose auditors operate in non-adopting states. I study three audit settings: public company financial statement audits, nonprofit organization (NPO) financial statement audits, and employee benefit plan (EBP) audits. Across all three settings, I find that audit quality declines following adoption, with the declines concentrated among clients audited by small audit firms. Adoption is also associated with an increase in the number of audit firms operating in treated states and lower audit fees in NPO and EBP audits. In contrast, public company audit fees remain unchanged. These results indicate that fee pressure arises primarily in markets dominated by small audit firms. Taken together, the evidence suggests that non-CPA ownership weakens professional accountability within firms and intensifies audit market competition, affecting both audit quality and pricing.
