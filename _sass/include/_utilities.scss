@@ -233,13 +233,13 @@ body:hover .visually-hidden button {
   max-width: none;
 }
 
-// Google Scholar uses its real logo (SVG). Slightly larger than the solid
-// squares: the diamond-and-circle ink covers less of its frame, so 1em reads
-// as the same visual weight as LinkedIn/SSRN at 0.875em. Overrides the
-// custom-icon size via source order (same specificity, later rule).
-.sidebar img.author__scholar-icon {
-  width: 1em;
-  height: 1em;
+// The graduation cap draws wider and taller ink than the envelope, so it
+// alone keeps a slight shrink (0.93, roughly equal ink area). LinkedIn runs
+// at full size per Jason's eye — with SSRN matched to it exactly. transform
+// (not font-size) so the fa-fw column width is untouched.
+.author__urls .fa-graduation-cap {
+  display: inline-block;
+  transform: scale(0.93);
 }
 
 // MIT-cardinal employer icon; explicit color so it stays cardinal on hover too.
