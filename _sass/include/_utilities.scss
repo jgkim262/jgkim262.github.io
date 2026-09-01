@@ -240,6 +240,7 @@ body:hover .visually-hidden button {
 .author__urls .fa-graduation-cap {
   display: inline-block;
   transform: scale(0.93);
+  color: #4285f4; // Google Scholar's brand blue
 }
 
 // MIT-cardinal employer icon; explicit color so it stays cardinal on hover too.
@@ -252,7 +253,8 @@ body:hover .visually-hidden button {
 // transform (not margin) so the column width is untouched.
 .author__urls .fa-location-pin {
   display: inline-block;
-  transform: translateX(0.05em);
+  transform: translateX(0.12em); // 0.05 read as still-left; ~2px total
+  color: #000;
 }
 
 /* Pull the abstract toggle closer to the entry above it. The preceding
