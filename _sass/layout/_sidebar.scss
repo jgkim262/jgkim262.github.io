@@ -252,6 +252,8 @@
 
   button {
     margin-bottom: 0;
+    // Same face as the bio line above it; .btn would otherwise set $sans-serif.
+    font-family: $global-font-family;
 
     @include breakpoint($large) {
       display: none;
