@@ -242,6 +242,19 @@ body:hover .visually-hidden button {
   transform: scale(0.93);
 }
 
+// MIT-cardinal employer icon; explicit color so it stays cardinal on hover too.
+.author__urls .fa-building-columns {
+  color: var(--global-link-color);
+}
+
+// The pin's ink renders a hair left of the building icon's center in the
+// fa-fw column; nudge right so the two stack on the same vertical axis.
+// transform (not margin) so the column width is untouched.
+.author__urls .fa-location-pin {
+  display: inline-block;
+  transform: translateX(0.05em);
+}
+
 /* Pull the abstract toggle closer to the entry above it. The preceding
    paragraph carries the theme's 1.3em bottom margin, and margins between it
    and <details> collapse to the larger of the two, so setting margin-top: 0
