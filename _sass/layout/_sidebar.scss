@@ -338,10 +338,14 @@
     // wrapped in a link centre the icon inside the <a>, not the <li>.
     display: flex;
     align-items: center;
-    margin-bottom: 3px; // was 5px; with the line-height above ~= 0.8x row pitch
+    // No extra margins or vertical padding: link rows were carrying ~7px the
+    // plain location row does not, which made MIT-through-LinkedIn read
+    // looser than Cambridge->MIT. With these at zero, every row's pitch is
+    // set purely by the list's line-height (1.2).
+    margin-bottom: 0;
     padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
