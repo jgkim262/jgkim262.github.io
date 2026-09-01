@@ -225,23 +225,25 @@ body:hover .visually-hidden button {
 // clamps whatever width is set below. Without it the badge can never grow
 // past 1.25em no matter what value is used here.
 .sidebar img.author__custom-icon {
-  // 0.75em matches the envelope glyph's ink height (the envelope's drawing
-  // fills 1em x 0.75em of its box), so the SSRN badge no longer reads larger
-  // than the Email icon beside it.
-  width: 0.75em;
-  height: 0.75em;
+  // Perceptual match to the envelope: its ink is a 1.0 x 0.75em rectangle
+  // (~0.72 em^2), so a solid square of equal apparent size needs ~0.85em per
+  // side (equal area), not equal height — at equal height a square reads
+  // smaller because it is narrower.
+  width: 0.85em;
+  height: 0.85em;
   max-width: none;
-  vertical-align: -0.05em;
+  vertical-align: -0.1em;
 }
 
-// The graduation cap and LinkedIn square draw their ink ~0.875em tall vs the
-// envelope's 0.75em, so at equal font-size they read visibly bigger. Scale
-// them by 0.75/0.875 ~= 0.86 to equalize ink height. transform (not
-// font-size) so the fa-fw column width is untouched and labels stay aligned.
+// The graduation cap and LinkedIn square draw ink ~0.875em tall vs the
+// envelope's 0.75em. Scaling to equal height (0.86) made them read too small
+// because the envelope is much wider; 0.93 targets equal ink area instead,
+// which is what the eye compares. transform (not font-size) so the fa-fw
+// column width is untouched and labels stay aligned.
 .author__urls .fa-graduation-cap,
 .author__urls .fa-linkedin {
   display: inline-block;
-  transform: scale(0.86);
+  transform: scale(0.93);
 }
 
 /* Pull the abstract toggle closer to the entry above it. The preceding
