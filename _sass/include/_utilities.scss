@@ -240,6 +240,7 @@ body:hover .visually-hidden button {
 .sidebar img.author__scholar-icon {
   width: 1.155em; // wider than tall per Jason's eye
   height: 1.05em; // needs preserveAspectRatio="none" in the SVG to stretch
+  transform: translateX(-0.07em); // measured 1.5px right of the envelope's center
 }
 
 // SSRN uses its wide wordmark (≈2.5:1 after trimming): span the full fa-fw
@@ -247,6 +248,14 @@ body:hover .visually-hidden button {
 .sidebar img.author__ssrn-icon {
   width: 1.25em;
   height: auto;
+  transform: translateX(-0.12em); // measured 2.5px right of the envelope's center
+}
+
+// LinkedIn's ink sat 1.5px left of the envelope's center (screenshot-measured,
+// same sweep as the Scholar/SSRN shifts above).
+.author__urls .fa-linkedin {
+  display: inline-block;
+  transform: translateX(0.07em);
 }
 
 // MIT-cardinal employer icon; explicit color so it stays cardinal on hover too.
