@@ -323,12 +323,12 @@
 
   li {
     white-space: nowrap;
-    line-height: 1.35; // 0.9 x the sidebar's default 1.5, per Jason's taste
+    line-height: 1.2; // 0.8 x the sidebar's default 1.5, per Jason's taste
   }
 
   a {
     display: block;
-    margin-bottom: 4px; // was 5px; with the line-height above ~= 0.9x row pitch
+    margin-bottom: 3px; // was 5px; with the line-height above ~= 0.8x row pitch
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
