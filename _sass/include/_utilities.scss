@@ -232,7 +232,9 @@ body:hover .visually-hidden button {
   width: 0.85em;
   height: 0.85em;
   max-width: none;
-  vertical-align: -0.1em;
+  // -0.06em mirrors how far the LinkedIn square dips below the baseline
+  // (32/512 of its em box), so the two solid squares sit identically.
+  vertical-align: -0.06em;
 }
 
 // The graduation cap and LinkedIn square draw ink ~0.875em tall vs the
@@ -244,6 +246,10 @@ body:hover .visually-hidden button {
 .author__urls .fa-linkedin {
   display: inline-block;
   transform: scale(0.93);
+  // Shrink toward the baseline rather than the middle, so the scaled ink
+  // stays anchored where every other glyph's ink sits. fa-fw already centres
+  // horizontally within the fixed 1.25em column.
+  transform-origin: center bottom;
 }
 
 /* Pull the abstract toggle closer to the entry above it. The preceding
