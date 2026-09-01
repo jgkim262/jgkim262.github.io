@@ -3,6 +3,11 @@
    ========================================================================== */
 
 .page__footer {
+  /* Nothing visible lives here anymore (no copyright, feed, or follow links) —
+     only the MathJax/new-tab scripts, which run regardless of display. Hide
+     the leftover grey bar entirely, matching timdesilva.me's clean bottom. */
+  display: none;
+
   @include clearfix;
   background-color: var(--global-footer-bg-color);
   color: var(--global-text-color-light);
