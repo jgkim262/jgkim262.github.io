@@ -326,7 +326,7 @@
 
   li {
     white-space: nowrap;
-    line-height: 1.9; // uniform pitch for every row, Cambridge through LinkedIn
+    line-height: 1.6; // uniform pitch for every row, Cambridge through LinkedIn
     // Flex so the icon is geometrically centred on the label's midline,
     // instead of sitting on the text baseline.
     display: flex;
