@@ -188,7 +188,8 @@
   @include breakpoint($large) {
     display: block;
     width: 100%;
-    padding-left: 0;
+    // ~one "J" advance right, so the name starts where its second letter did.
+    padding-left: 0.5em;
     padding-right: 0;
   }
 }
@@ -248,6 +249,7 @@
 
   @include breakpoint($large) {
     display: block;
+    padding-left: 0.5em; // matches the name/bio shift above
   }
 
   button {
