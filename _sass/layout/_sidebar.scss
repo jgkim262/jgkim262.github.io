@@ -210,7 +210,10 @@
 .sidebar .author__desktop {
   display: none;
   @media screen and (min-width: 1024px) {
-    display: block;
+    // flex, not block: this higher-specificity rule would otherwise undo the
+    // .author__urls li flex centring for the location row.
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -324,10 +327,17 @@
   li {
     white-space: nowrap;
     line-height: 1.2; // 0.8 x the sidebar's default 1.5, per Jason's taste
+    // Flex so the icon is geometrically centred on the label's midline,
+    // instead of sitting on the text baseline.
+    display: flex;
+    align-items: center;
   }
 
   a {
-    display: block;
+    // Flex for the same reason as the li rule above: rows whose content is
+    // wrapped in a link centre the icon inside the <a>, not the <li>.
+    display: flex;
+    align-items: center;
     margin-bottom: 3px; // was 5px; with the line-height above ~= 0.8x row pitch
     padding-right: 5px;
     padding-top: 2px;
