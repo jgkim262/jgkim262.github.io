@@ -238,8 +238,15 @@ body:hover .visually-hidden button {
 // as the same visual weight as LinkedIn/SSRN at 0.875em. Overrides the
 // custom-icon size via source order (same specificity, later rule).
 .sidebar img.author__scholar-icon {
-  width: 1em;
-  height: 1em;
+  width: 1.1em; // 1em × 1.1 per Jason's eye
+  height: 1.1em;
+}
+
+// SSRN uses its wide wordmark (≈2.5:1 after trimming): span the full fa-fw
+// column and let the height follow the aspect ratio (~0.5em of navy ink).
+.sidebar img.author__ssrn-icon {
+  width: 1.25em;
+  height: auto;
 }
 
 // MIT-cardinal employer icon; explicit color so it stays cardinal on hover too.
