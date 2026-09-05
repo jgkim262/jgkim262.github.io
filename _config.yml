@@ -23,7 +23,7 @@ repository               : "jgkim262/jgkim262.github.io"
 author:
   # Biographic information
   avatar           : "JK_Profile_20260905_v2.jpeg" # desktop (rectangle)
-  avatar_mobile    : "JK_Profile_20260905.jpeg"    # narrow layout (oval); falls back to avatar if blank
+  avatar_mobile    : "JK_Profile_20260905_oval.jpeg"    # narrow layout (oval); falls back to avatar if blank
   name             : "Jason Kim"
   pronouns         : # example: "she/her"
   bio              : "Ph.D. Candidate in Accounting"
