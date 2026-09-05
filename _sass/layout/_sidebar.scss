@@ -277,11 +277,12 @@
     margin-bottom: 0;
     // Same face as the bio line above it; .btn would otherwise set $sans-serif.
     font-family: $global-font-family;
-    font-weight: 330; // a touch above the body's 300, per Jason
-    // Same ink as the job-market line, border included. !important required:
-    // the theme's .btn--inverse declares both with !important.
+    font-weight: 350; // between the body's 300 and .medium's 375, per Jason
+    // Text in the job-market line's ink; border one step greyer (the theme's
+    // $gray — dark grey, well short of the light default). !important
+    // required: the theme's .btn--inverse declares both with !important.
     color: var(--global-text-color) !important;
-    border-color: var(--global-text-color) !important;
+    border-color: #7a8288 !important;
 
     @include breakpoint($large) {
       display: none;
