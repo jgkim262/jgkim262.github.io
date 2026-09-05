@@ -156,7 +156,7 @@
   img {
     // 5% above the 175px template/timdesilva.me default, per Jason's taste.
     max-width: 184px;
-    border-radius: 50%;
+    border-radius: 0; // rectangle per Jason; 50% gives the timdesilva.me oval
 
     // Ring only on the wide layout, matching timdesilva.me. In the narrow
     // layout (also what high browser zoom triggers) the photo fills the circle
