@@ -190,7 +190,7 @@
     // this the shape would follow the uploaded file's own proportions, so a
     // square photo would render as a circle. object-position sits above
     // centre because faces sit in the upper half of a headshot.
-    aspect-ratio: 0.93; // timdesilva.me's oval; 1 gives a circle
+    aspect-ratio: 0.90; // timdesilva.me's oval; 1 gives a circle
     object-fit: cover;
     object-position: center 30%;
   }
