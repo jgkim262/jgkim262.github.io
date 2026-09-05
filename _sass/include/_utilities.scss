@@ -403,14 +403,20 @@ body:hover .visually-hidden button {
   font-weight: 410;
 }
 
-/* The blank spacer paragraph above the home-page intro: desktop only. On
-   phones the sidebar already stacks above the text, so the extra gap
-   just pushes the bio down. display:none removes the line and its margin. */
+/* The blank spacer paragraph above the home-page intro. Desktop keeps its
+   natural size (text line + the theme's 1.3em paragraph margin, ~48px).
+   On phones it collapses to a fixed ~half-size gap: line-height 0 removes
+   the &nbsp; line box so the height value alone sets the gap. */
 .page__content .desktop-spacer {
-  display: none;
+  display: block;
+  height: 1.3em; // ≈ half the desktop gap; tune this for mobile only
+  line-height: 0;
+  margin-bottom: 0;
 
   @include breakpoint($large) {
-    display: block;
+    height: auto;
+    line-height: inherit;
+    margin-bottom: 1.3em; // the theme's default paragraph margin, restored
   }
 }
 
