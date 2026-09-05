@@ -9,6 +9,17 @@
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+    {% elsif author.avatar_mobile %}
+    	{%- comment -%}
+    	  Different photo per layout. 925px is $large — the same switch that
+    	  flips the avatar from oval (narrow) to rectangle (desktop) in
+    	  _sidebar.scss, so shape and photo always change together. The browser
+    	  downloads only the matching source.
+    	{%- endcomment -%}
+    	<picture>
+    	  <source media="(min-width: 925px)" srcset="{{ author.avatar | prepend: "/images/" | prepend: base_path }}">
+    	  <img src="{{ author.avatar_mobile | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+    	</picture>
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
     {% endif %}

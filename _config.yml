@@ -22,7 +22,8 @@ repository               : "jgkim262/jgkim262.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "JK_Profile_20260905_v2.jpeg"
+  avatar           : "JK_Profile_20260905_v2.jpeg" # desktop (rectangle)
+  avatar_mobile    : "JK_Profile_20260905.jpeg"    # narrow layout (oval); falls back to avatar if blank
   name             : "Jason Kim"
   pronouns         : # example: "she/her"
   bio              : "Ph.D. Candidate in Accounting"
