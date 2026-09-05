@@ -403,6 +403,17 @@ body:hover .visually-hidden button {
   font-weight: 410;
 }
 
+/* The blank spacer paragraph above the home-page intro: desktop only. On
+   phones the sidebar already stacks above the text, so the extra gap
+   just pushes the bio down. display:none removes the line and its margin. */
+.page__content .desktop-spacer {
+  display: none;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+
 /* Programme lines on the teaching page (Executive MBA - MIT Sloan, ...).
    520 needs the variable font load (wght@300..800) to render as a true
    weight. Overrides the 700 the <strong> wrapper would otherwise give. */
