@@ -169,7 +169,7 @@
     width: 36px;
 
     // 5% above the 175px template/timdesilva.me default, per Jason's taste.
-    max-width: 184px;
+    max-width: 190px;
     // Oval on the narrow/mobile layout, rectangle on desktop (overridden in
     // the $large block below, which also carries the desktop-only ring).
     border-radius: 50%;
@@ -190,7 +190,7 @@
     // this the shape would follow the uploaded file's own proportions, so a
     // square photo would render as a circle. object-position sits above
     // centre because faces sit in the upper half of a headshot.
-    aspect-ratio: 0.88; // timdesilva.me's oval; 1 gives a circle
+    aspect-ratio: 0.83; // timdesilva.me's oval; 1 gives a circle
     object-fit: cover;
     object-position: center 30%;
   }
