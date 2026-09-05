@@ -153,7 +153,20 @@
     height: auto;
   }
 
+  // The avatar img sits inside <picture> (per-layout photos). Make the
+  // wrapper a block that fills the cell so the img's percentage width has a
+  // solid base in every engine — WebKit collapses img{width:100%} to zero
+  // through an inline picture in a table cell (blank avatar on iPhones).
+  picture {
+    display: block;
+    width: 100%;
+  }
+
   img {
+    // Explicit px on the narrow layout: immune to the WebKit table-cell
+    // quirk above. The $large block below restores fluid sizing on desktop.
+    width: 72px;
+
     // 5% above the 175px template/timdesilva.me default, per Jason's taste.
     max-width: 184px;
     // Oval on the narrow/mobile layout, rectangle on desktop (overridden in
@@ -165,6 +178,7 @@
     // with no ring — box-sizing is border-box, so leaving the padding on there
     // would shrink the image inside its own frame.
     @include breakpoint($large) {
+      width: 100%; // back to fluid on desktop (capped by max-width above)
       padding: 5px;
       border: 1px solid var(--global-border-color);
       border-radius: 0; // rectangle on desktop per Jason
