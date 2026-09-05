@@ -277,6 +277,7 @@
     margin-bottom: 0;
     // Same face as the bio line above it; .btn would otherwise set $sans-serif.
     font-family: $global-font-family;
+    font-weight: 410; // same as .jobmarket ("2026–2027 academic job market")
 
     @include breakpoint($large) {
       display: none;
