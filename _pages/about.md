@@ -1,5 +1,7 @@
 ---
 permalink: /
+# Search/tab title only — no visible heading (that's what `title:` would do).
+meta_title: "Jason Kim - Accounting PhD Candidate, MIT Sloan"
 author_profile: true
 redirect_from:
   - /about/
