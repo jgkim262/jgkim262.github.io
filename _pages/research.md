@@ -1,5 +1,6 @@
 ---
 permalink: /research/
+meta_title: "Jason G. Kim | Research"
 wide: true
 author_profile: true
 ---

@@ -1,5 +1,6 @@
 ---
 permalink: /teaching/
+meta_title: "Jason G. Kim | Teaching"
 author_profile: true
 ---
 
