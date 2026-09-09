@@ -1,7 +1,6 @@
 ---
 permalink: /research/
 meta_title: "Jason G. Kim | Research"
-wide: true
 author_profile: true
 ---
 
@@ -51,10 +50,5 @@ This paper examines whether boards respond to tax-induced changes in the incenti
 **<span class="paper-num">[5]</span> Shared Assurance: The Economics of Reusing Security Audits**{: .paper-title}<br>
 <span class="muted">with</span> [David Kim](https://www.davidkim.info/){: .coauthor}
 
-{% comment %}
-  Held back for now (Jason, 2026-09-09). Liquid comment: nothing inside
-  reaches the built page. To restore, delete this line and the endcomment
-  line below.
 **<span class="paper-num">[6]</span> Before the Government Speaks: Insider Trading on Federal Contract Awards**{: .paper-title}<br>
 <span class="muted">with</span> [Ji Eon Kim](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7090769){: .coauthor}
-{% endcomment %}
