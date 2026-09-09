@@ -47,7 +47,7 @@ This paper examines whether boards respond to tax-induced changes in the incenti
 **<span class="paper-num">[4]</span> How Do Audit Partner Retirements Reshape the Audit Market?**{: .paper-title}<br>
 <span class="muted">with</span> [Joseph Moran](https://mitsloan.mit.edu/faculty/directory/joseph-moran){: .coauthor} and [Joseph Weber](https://mitsloan.mit.edu/faculty/directory/joseph-p-weber){: .coauthor}
 
-**<span class="paper-num">[5]</span> Shared Assurance: The Economics of Reusing Security Audits**{: .paper-title}<br>
+**<span class="paper-num">[5]</span> The Economics of Reusing Cybersecurity Audits**{: .paper-title}<br>
 <span class="muted">with</span> [David Kim](https://www.davidkim.info/){: .coauthor}
 
 **<span class="paper-num">[6]</span> Before the Government Speaks: Insider Trading on Federal Contract Awards**{: .paper-title}<br>
