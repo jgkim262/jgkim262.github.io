@@ -182,7 +182,7 @@
       width: 100%; // back to fluid on desktop (capped by max-width above)
       padding: 5px;
       border: 1px solid var(--global-border-color);
-      border-radius: 0; // rectangle on desktop per Jason
+      border-radius: 50%; // trial: oval on desktop too (set 0 for the rectangle)
     }
 
     // Force the portrait ratio that makes border-radius:50% read as an oval
