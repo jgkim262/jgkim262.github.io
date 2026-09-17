@@ -43,6 +43,10 @@ This paper examines whether boards respond to tax-induced changes in the incenti
 
 **<span class="paper-num">[4]</span> Before the Government Speaks: Insider Trading on Federal Contract Awards**{: .paper-title}<br>
 <span class="muted">with</span> [Ji Eon Kim](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7090769){: .coauthor}
+<details markdown="1"><summary><span class="toggle-mark"></span>Abstract</summary>
+
+This paper examines whether corporate insiders trade profitably on nonpublic information about U.S. federal contract awards. Federal agencies privately notify winning firms before publicly posting awards, creating a gap during which the firm knows the procurement outcome and outside investors do not. Linking 67,599 awards to insiders’ Form 4 filings from 2010 to 2024, we find that insiders increase purchases during the gap. These purchases generate abnormal returns of 8.2 basis points per day (23 percent annualized), whereas contemporaneous insider sales do not. Profitability increases with the duration and strength of insiders’ information advantage—longer gaps, more material contracts, competitive rather than sole-source awards, and weaker information environments. We further exploit a 2021 change in Department of Defense (DoD) disclosure practice that lengthened the DoD gap from roughly four to 90 days while leaving civilian awards unaffected. Following the change, insider-trading profitability increases for DoD awards relative to civilian awards. Overall, our findings suggest that insiders’ information advantage depends not only on firms’ own reporting choices but also on the design of government disclosure systems.
+</details>
 
 
 
