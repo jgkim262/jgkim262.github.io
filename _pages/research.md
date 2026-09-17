@@ -41,14 +41,18 @@ This paper examines whether boards respond to tax-induced changes in the incenti
 * Presented: 2026 FARS Midyear Meeting, 2026 MAS Midyear Meeting
 
 
+**<span class="paper-num">[4]</span> Before the Government Speaks: Insider Trading on Federal Contract Awards**{: .paper-title}<br>
+<span class="muted">with</span> [Ji Eon Kim](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7090769){: .coauthor}
+
+
 
 ## Work in Progress
 {: .section-title}
-**<span class="paper-num">[4]</span> How Do Audit Partner Retirements Reshape the Audit Market?**{: .paper-title}<br>
+**<span class="paper-num">[5]</span> How Do Audit Partner Retirements Reshape the Audit Market?**{: .paper-title}<br>
 <span class="muted">with</span> [Joseph Moran](https://mitsloan.mit.edu/faculty/directory/joseph-moran){: .coauthor} and [Joseph Weber](https://mitsloan.mit.edu/faculty/directory/joseph-p-weber){: .coauthor}
 
-**<span class="paper-num">[5]</span> The Economics of Shared Cybersecurity Assurance**{: .paper-title}<br>
+**<span class="paper-num">[6]</span> The Economics of Shared Cybersecurity Assurance**{: .paper-title}<br>
 <span class="muted">with</span> [David Kim](https://www.davidkim.info/){: .coauthor}
 
-**<span class="paper-num">[6]</span> Before the Government Speaks: Insider Trading on Federal Contract Awards**{: .paper-title}<br>
-<span class="muted">with</span> [Ji Eon Kim](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7090769){: .coauthor}
+**<span class="paper-num">[7]</span> Valuing Performance-Vesting Equity and the Rise in CEO Pay**{: .paper-title}<br>
+<span class="muted">with</span> [John Core](https://mitsloan.mit.edu/faculty/directory/john-e-core){: .coauthor}
