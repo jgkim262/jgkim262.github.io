@@ -823,3 +823,15 @@ a.reversefootnote {
   color: $danger-color;
   font-weight: bold;
 }
+
+/* Compact text for the research page: everything except the paper titles at
+   15px (body is 18px). Opt in with `compact: true` in a page's front matter,
+   which single.html turns into .page--compact on the <article>. Explicit px
+   on the summary chip and abstract body so they don't compound off the
+   smaller paragraph size; .paper-title pins the titles back to body size. */
+.page--compact .page__content {
+  p, li, dl { font-size: 15px; }
+  details > summary { font-size: 15px; }
+  details > p { font-size: 15px; }
+  .paper-title { font-size: 18px; }
+}
