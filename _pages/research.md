@@ -21,12 +21,9 @@ This paper examines whether allowing non-CPAs to own an equity stake in CPA firm
 
 ## Working Papers
 {: .section-title}
-**<span class="paper-num">[2]</span> Does Offshoring the Accounting Function Affect Financial Reporting Quality?**{: .paper-title}
-{: .paper-head}
-
+**<span class="paper-num">[2]</span> Does Offshoring the Accounting Function Affect Financial Reporting Quality?**{: .paper-title}<br>
 <span class="muted">with</span> [Nemit Shroff](https://mitsloan.mit.edu/faculty/directory/nemit-shroff){: .coauthor}, [Fabio Soares](https://mitsloan.mit.edu/programs/phd/fabio-da-silva-soares){: .coauthor}, and [Felix Vetter](https://mitsloan.mit.edu/faculty/directory/felix-w-vetter){: .coauthor}<br>
 **Revise and Resubmit at Management Science**{: .paper-status} (***2025 PCAOB/Management Science Registered Report***)
-{: .paper-meta}
 <details markdown="1"><summary><span class="toggle-mark"></span>Abstract</summary>
 
 This registered report proposes to examine whether offshoring a company’s accounting function affects financial reporting quality. Offshoring can generate efficiency gains by reducing costs, expanding access to accounting talent, and enabling specialization. However, it may also impair reporting quality by creating communication frictions, weakening oversight, and increasing coordination costs across locations. We propose to measure financial reporting quality using confidential PCAOB data on audit adjustments—misstatements in companies’ pre-audit financial statements identified by auditors before financial statements are finalized. We measure accounting offshoring primarily at the company-year level using Revelio Labs resume data, defined as the share of a company’s accounting employees located outside the U.S. We supplement this measure with an industry-year measure of accounting service imports from the Bureau of Economic Analysis, which captures both in-house and outsourced offshoring. To mitigate endogeneity concerns, we exploit India’s 2017 amendment to its Special Economic Zones program, which extended tax and regulatory benefits to exporters of accounting services and plausibly reduced the cost of India-based accounting offshoring. The study will provide evidence on whether accounting offshoring creates a cost–quality tradeoff or allows companies to reduce costs and alleviate accounting labor constraints without compromising financial reporting quality.
@@ -35,11 +32,8 @@ This registered report proposes to examine whether offshoring a company’s acco
 * Presented: MIT Sloan, 2025 PCAOB/Management Science Registered Reports Conference
 
 
-**<span class="paper-num">[3]</span> Tax-Induced Distortion in Managerial Horizon**{: .paper-title}
-{: .paper-head}
-
+**<span class="paper-num">[3]</span> Tax-Induced Distortion in Managerial Horizon**{: .paper-title}<br>
 <span class="muted">with</span> [Jen Choi](https://sites.google.com/view/jenchoi/home){: .coauthor} and [Rachel Yoon](https://sites.google.com/view/rsyoon/home){: .coauthor}
-{: .paper-meta}
 <details markdown="1"><summary><span class="toggle-mark"></span>Abstract</summary>
 
 This paper examines whether boards respond to tax-induced changes in the incentive horizon they design, arising from the differential tax treatment of CEOs’ short-term incentives (e.g., bonuses or performance-vesting conditions of equity awards) and long-term incentives (e.g., gains from equity awards). Using staggered changes in state-level ordinary income and long-term capital gains tax rates, we find that boards do not adjust incentive weights in a timely manner. Nonetheless, CEOs do respond to these incentive changes. Specifically, tax-induced decreases in the after-tax weight on long-horizon incentives lead CEOs to engage in more myopic behavior, whereas increases in the after-tax weight on long-horizon incentives mitigate such behavior. The effect of after-tax weights is stronger when the affected pay component constitutes a larger share of CEOs’ pay-for-performance sensitivity. Competitive product markets mitigate the extent of myopic behavior. Overall, our results suggest that taxes distort the realized, after-tax composition of short- and long-term incentives, exogenously shifting the balance of horizons designed by the board.
@@ -48,11 +42,8 @@ This paper examines whether boards respond to tax-induced changes in the incenti
 * Presented: 2026 FARS Midyear Meeting, 2026 MAS Midyear Meeting
 
 
-**<span class="paper-num">[4]</span> Before the Government Speaks: Insider Trading on Federal Contract Awards**{: .paper-title}
-{: .paper-head}
-
+**<span class="paper-num">[4]</span> Before the Government Speaks: Insider Trading on Federal Contract Awards**{: .paper-title}<br>
 <span class="muted">with</span> [Ji Eon Kim](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7090769){: .coauthor}
-{: .paper-meta}
 <details markdown="1"><summary><span class="toggle-mark"></span>Abstract</summary>
 
 This paper examines whether corporate insiders trade profitably on nonpublic information about U.S. federal contract awards. Federal agencies privately notify winning firms before publicly posting awards, creating a gap during which the firm knows the procurement outcome and outside investors do not. Linking 67,599 awards to insiders’ Form 4 filings from 2010 to 2024, we find that insiders increase purchases during the gap. These purchases generate abnormal returns of 8.2 basis points per day (23 percent annualized), whereas contemporaneous insider sales do not. Profitability increases with the duration and strength of insiders’ information advantage—longer gaps, more material contracts, competitive rather than sole-source awards, and weaker information environments. We further exploit a 2021 change in Department of Defense (DoD) disclosure practice that lengthened the DoD gap from roughly four to 90 days while leaving civilian awards unaffected. Following the change, insider-trading profitability increases for DoD awards relative to civilian awards. Overall, our findings suggest that insiders’ information advantage depends not only on firms’ own reporting choices but also on the design of government disclosure systems.
@@ -62,20 +53,11 @@ This paper examines whether corporate insiders trade profitably on nonpublic inf
 
 ## Work in Progress
 {: .section-title}
-**<span class="paper-num">[5]</span> How Do Audit Partner Retirements Reshape the Audit Market?**{: .paper-title}
-{: .paper-head}
-
+**<span class="paper-num">[5]</span> How Do Audit Partner Retirements Reshape the Audit Market?**{: .paper-title}<br>
 <span class="muted">with</span> [Joseph Moran](https://mitsloan.mit.edu/faculty/directory/joseph-moran){: .coauthor} and [Joseph Weber](https://mitsloan.mit.edu/faculty/directory/joseph-p-weber){: .coauthor}
-{: .paper-meta}
 
-**<span class="paper-num">[6]</span> The Economics of Shared Cybersecurity Assurance**{: .paper-title}
-{: .paper-head}
-
+**<span class="paper-num">[6]</span> The Economics of Shared Cybersecurity Assurance**{: .paper-title}<br>
 <span class="muted">with</span> [David Kim](https://www.davidkim.info/){: .coauthor}
-{: .paper-meta}
 
-**<span class="paper-num">[7]</span> Valuing Performance-Vesting Equity and the Rise in CEO Pay**{: .paper-title}
-{: .paper-head}
-
+**<span class="paper-num">[7]</span> Valuing Performance-Vesting Equity and the Rise in CEO Pay**{: .paper-title}<br>
 <span class="muted">with</span> [John Core](https://mitsloan.mit.edu/faculty/directory/john-e-core){: .coauthor}
-{: .paper-meta}

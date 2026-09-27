@@ -834,12 +834,4 @@ a.reversefootnote {
   details > summary { font-size: 15px; }
   details > p { font-size: 15px; }
   .paper-title { font-size: 18px; }
-
-  /* Everything under a title steps in by one fixed indent: the coauthor/
-     status paragraph (.paper-meta), the abstract toggle, and the bullet
-     lists. margin-left (not padding) so the bullet markers move with their
-     text. The title paragraph (.paper-head) drops its bottom margin so the
-     "with" line stays tucked under its title as it was with the old <br>. */
-  .paper-meta, details, ul { margin-left: 1.25em; }
-  .paper-head { margin-bottom: 0; }
 }
