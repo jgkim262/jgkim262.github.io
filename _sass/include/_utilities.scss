@@ -516,6 +516,7 @@ body:hover .visually-hidden button {
   padding: 1.25em 1.5em;
   margin-top: 0;
   font-size: 0.9em; // abstract body reads a step smaller than page text
+  text-align: justify; // abstracts only; the rest of the page stays left-aligned
 }
 
 /* social icons*/
