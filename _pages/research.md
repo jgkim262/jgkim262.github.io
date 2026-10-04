@@ -49,6 +49,8 @@ This paper examines whether boards respond to tax-induced changes in the incenti
 This paper examines whether corporate insiders trade profitably on nonpublic information about U.S. federal contract awards. Federal agencies privately notify winning firms before publicly posting award information, creating a gap during which winning firms know the procurement outcome and outside investors do not. Linking 67,599 awards to insider trading records from 2010 to 2024, we find that insiders are more likely to purchase shares of their own firms during the gap. These purchases generate abnormal returns of 8.2 basis points per day (23 percent annualized), whereas we find no evidence of comparable profitability for contemporaneous insider sales. Profitability increases with the duration and strength of insiders’ information advantage, with higher returns when disclosure gaps are longer, contracts are more material, awards are competitive rather than sole-source, and firms’ information environments are weaker. We further exploit a 2021 change in Department of Defense (DoD) disclosure practices that extended the disclosure gap for DoD awards from roughly four to 90 days, while disclosure timing for civilian awards remained unchanged. Following the change, abnormal returns on insider trades during the gap increase for DoD awards relative to civilian awards. Overall, our findings extend prior research on insider trading beyond firms’ own reporting choices by providing evidence that insiders profit from information advantages created by the design of government disclosure systems.
 </details>
 
+* Presented: Boston College
+
 
 
 ## Work in Progress
