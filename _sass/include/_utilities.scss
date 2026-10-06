@@ -391,6 +391,12 @@ body:hover .visually-hidden button {
   font-weight: 800;
 }
 
+/* The MIT Sloan affiliation link on the home page: clearly above body text
+   but well short of bold. Apply with: [text](url){: .affiliation} */
+.page__content .affiliation {
+  font-weight: 450;
+}
+
 /* Medium weight — a lighter emphasis than .semibold, for phrases that should
    lift off the 300-weight body text without shouting.
    Apply with: <span class="medium">text</span> */
@@ -406,7 +412,7 @@ body:hover .visually-hidden button {
 /* The "2026–2027 academic job market" phrase on the home page: a hair above
    the 300-weight body text. Apply with: <span class="jobmarket-phrase">text</span> */
 .page__content .jobmarket-phrase {
-  font-weight: 320;
+  font-weight: 340;
 }
 
 /* The blank spacer paragraph above the home-page intro. Desktop keeps its
