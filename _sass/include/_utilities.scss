@@ -391,10 +391,10 @@ body:hover .visually-hidden button {
   font-weight: 800;
 }
 
-/* The MIT Sloan affiliation link on the home page: clearly above body text
-   but well short of bold. Apply with: [text](url){: .affiliation} */
-.page__content .affiliation {
-  font-weight: 450;
+/* Key links on the home page (MIT Sloan, research, CV): clearly above body
+   text but short of bold. Apply with: [text](url){: .keylink} */
+.page__content .keylink {
+  font-weight: 530;
 }
 
 /* Medium weight — a lighter emphasis than .semibold, for phrases that should
