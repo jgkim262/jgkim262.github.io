@@ -223,6 +223,11 @@
 .sidebar .author__name {
   font-family: $global-font-family;
   font-size: $type-size-5;
+
+  // On desktop the name sits in the masthead instead (.masthead__name).
+  @include breakpoint($large) {
+    display: none;
+  }
 }
 
 .sidebar .author__desktop {
@@ -248,8 +253,30 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 14px;
+    margin-bottom: 0;
+  }
+}
+
+// "Massachusetts Institute of Technology" under the title, desktop only, as
+// on asheshrambachan.github.io; the phone row keeps just name and title.
+.sidebar .author__institution {
+  display: none;
+  margin: 0;
+  color: var(--global-text-color);
+
+  @include breakpoint($large) {
+    display: block;
+    margin-top: 8px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -270,7 +297,15 @@
 
   @include breakpoint($large) {
     display: block;
-    padding-left: 1.2em; // matches the name/bio shift above
+    // Thin rule between the institution and Cambridge, MA. The 1.2em indent
+    // (matching the name/bio shift above) is a margin rather than padding so
+    // the rule starts under the text, not at the photo's left edge; the
+    // max-width ends it at the photo's right edge (the avatar's 185px cap).
+    margin-left: 1.2em;
+    max-width: calc(185px - 1.2em);
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid var(--global-dark-border-color);
   }
 
   button {

@@ -1,6 +1,14 @@
 {% include base_path %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
+    {%- comment -%}
+      The bar carries the dark rule across the top, with the name at left and
+      the menu at right, after asheshrambachan.github.io. The name shows on
+      desktop only; on narrow screens it stays in the sidebar row instead
+      (see .masthead__name in _masthead.scss).
+    {%- endcomment -%}
+    <div class="masthead__bar">
+    <a class="masthead__name" href="{{ base_path }}/">{{ site.author.name }}</a>
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
@@ -23,6 +31,7 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+    </div>
     </div>
   </div>
 </div>
