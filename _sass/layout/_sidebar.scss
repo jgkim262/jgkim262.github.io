@@ -264,6 +264,7 @@
   display: none;
   margin: 0;
   color: var(--global-text-color);
+  font-weight: 350; // a touch heavier than the 300 title above it, per Jason
 
   @include breakpoint($large) {
     display: block;
