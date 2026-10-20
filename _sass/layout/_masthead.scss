@@ -99,6 +99,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-size: 14px; // menu size on asheshrambachan.github.io, per Jason
 
   &--lg {
     padding-right: 2em;
@@ -106,16 +107,17 @@
   }
 }
 
-.masthead__menu-item.selected a {
-  color: var(--global-text-color);
-  font-weight: 700;
-  border-bottom: 2px solid var(--global-text-color);
-  pointer-events: none; /* Move this here */
-  cursor: default; /* Move this here too */
+// Current page: cardinal and underlined rather than bold, after
+// asheshrambachan.github.io (1px underline, 5px below the text).
+.masthead__menu-item.selected a,
+.masthead__menu-item.selected a:hover {
+  color: var(--global-link-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
 }
 
-.masthead__menu-item.selected a:hover {
-  color: var(--global-text-color);
-  border-bottom: 2px solid var(--global-text-color);
-  /* No need to repeat pointer-events and cursor here */
+.masthead__menu-item.selected a {
+  pointer-events: none;
+  cursor: default;
 }

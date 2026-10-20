@@ -209,8 +209,9 @@
       display: table-cell;
       vertical-align: middle;
 
+      // No bold on the first item (the template's site-title slot): Home is
+      // an ordinary menu item here, highlighted only via .selected.
       &:first-child {
-        font-weight: bold;
         text-wrap: wrap;
 
         a {

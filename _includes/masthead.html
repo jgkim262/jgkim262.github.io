@@ -19,13 +19,23 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+            {%- comment -%}
+              Current page gets .selected (cardinal + underline). Home ("/")
+              needs an exact match, since every page.url contains "/".
+            {%- endcomment -%}
+            {% assign current = false %}
+            {% if link.url == '/' %}
+              {% if page.url == '/' or page.url == '/index.html' %}{% assign current = true %}{% endif %}
+            {% elsif page.url contains link.url %}
+              {% assign current = true %}
+            {% endif %}
+            <li class="masthead__menu-item {% if current %}selected{% endif %}">
               {%- comment -%}
                 External nav items (currently the CV, hosted on Google Drive)
                 open in a new tab so visitors do not lose the site.
                 rel="noopener" is required with target="_blank".
               {%- endcomment -%}
-              <a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank" rel="noopener"{% endif %}>{{ link.title }}</a>
+              <a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank" rel="noopener"{% endif %}{% if current %} aria-current="page"{% endif %}>{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>

@@ -264,7 +264,7 @@ body:hover .visually-hidden button {
 .author__urls .fa-location-pin {
   display: inline-block;
   transform: translateX(0.12em); // 0.05 read as still-left; ~2px total
-  color: #000;
+  color: var(--global-link-color); // MIT cardinal #750014, per Jason
 }
 
 /* Pull the abstract toggle closer to the entry above it. The preceding
