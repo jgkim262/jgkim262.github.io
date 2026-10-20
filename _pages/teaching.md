@@ -2,6 +2,7 @@
 permalink: /teaching/
 meta_title: "Jason G. Kim | Teaching"
 author_profile: true
+profile_mobile_only: true # no sidebar on desktop; phones keep the profile row
 ---
 
 <span class="xsmall">As a teaching assistant (TA) for the courses below, Jason led recitation sessions and held office hours.</span>

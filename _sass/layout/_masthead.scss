@@ -25,9 +25,9 @@
     padding: 0 1em;
     font-family: $sans-serif-narrow;
 
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
+    // Same centred column as #main (_page.scss); border-box, so the 1em
+    // side padding is added on top of the content width.
+    max-width: calc(#{$site-content-width} + 2em);
 
     nav {
       z-index: 10;
@@ -39,9 +39,10 @@
   }
 }
 
-// The rule runs from the photo's left edge to where the body text ends, as on
-// asheshrambachan.github.io. Flex keeps the menu filling the space beside the
-// name, so the greedy-nav script still measures a full-width nav.
+// The rule spans the full content column, as on asheshrambachan.github.io;
+// the text below ends at the same right edge. Flex keeps the menu filling
+// the space beside the name, so the greedy-nav script still measures a
+// full-width nav.
 .masthead__bar {
   display: flex;
   align-items: center;
@@ -50,12 +51,6 @@
   margin-top: 1.75em;
   padding-top: 0.55em;
   border-top: 2px solid var(--global-text-color);
-
-  @include breakpoint($large) {
-    // Same 2-of-12 right gutter as .page's suffix, so the rule and the menu
-    // end where the text column does.
-    margin-right: span(2 of 12 wide);
-  }
 }
 
 // Small, uppercase, letter-spaced, after asheshrambachan.github.io. Desktop

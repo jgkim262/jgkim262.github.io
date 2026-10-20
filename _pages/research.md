@@ -3,6 +3,7 @@ permalink: /research/
 meta_title: "Jason G. Kim | Research"
 compact: true # everything but paper titles at 15px (see .page--compact)
 author_profile: true
+profile_mobile_only: true # no sidebar on desktop; phones keep the profile row
 ---
 
 ## Job Market Paper

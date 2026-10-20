@@ -11,19 +11,28 @@
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
-  // Flex on desktop so the article stretches to the taller of the two
-  // columns; its ::before then draws the vertical rule between sidebar and
-  // text for the full height (after asheshrambachan.github.io). The Susy
-  // widths still apply; the floats are simply ignored inside flex.
+  // Centred column of $site-content-width, as on asheshrambachan.github.io
+  // (border-box, so the 1em side padding is added on top).
+  max-width: calc(#{$site-content-width} + 2em);
+
+  // Flex on desktop: a fixed 185px sidebar (the photo's width) and the text
+  // filling the rest, with no right gutter, so the text ends where the
+  // masthead rule and menu do. The article stretches to the taller of the
+  // two columns; its ::before draws the vertical rule between them.
   @include breakpoint($large) {
     display: flex;
     margin-top: 2.6em;
 
     > .sidebar {
+      flex: 0 0 185px;
+      margin-right: 26px; // with the rule at 12px: ~38px photo-to-rule, ~40px rule-to-text
       align-self: flex-start; // unstretched, so position:sticky still works
     }
 
     > .page {
+      flex: 1 1 auto;
+      min-width: 0;
+      padding-left: 52px;
       position: relative;
 
       &::before {
@@ -35,24 +44,31 @@
         border-left: 1px solid var(--global-dark-border-color);
       }
     }
-  }
 
-  @include breakpoint($x-large) {
-    max-width: $x-large;
+    // Pages with `profile_mobile_only: true` (Research, Teaching): no
+    // sidebar or divider on desktop; the text spans the whole column, from
+    // under the name in the masthead to the end of the menu.
+    &.main--profile-mobile {
+      > .sidebar {
+        display: none;
+      }
+
+      > .page {
+        padding-left: 0;
+
+        &::before {
+          display: none;
+        }
+      }
+    }
   }
 }
 
 .page {
-  @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
-  }
+  // Desktop widths are set by the flex rules on #main above.
 
-  // Opt-in wider column, set per page with `wide: true` in front matter.
-  // suffix(2 of 12) above reserves an empty right gutter of ~16.95%; this
-  // narrows it to 5%, so the column runs wider than the default pages while
-  // keeping a little breathing room at the right edge.
+  // Legacy opt-in (`wide: true`), from when pages kept a ~17% right gutter;
+  // no page uses it now, and with no gutter it would narrow the column.
   &--wide {
     @include breakpoint($large) {
       padding-right: 8.5%;

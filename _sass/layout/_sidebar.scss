@@ -23,8 +23,9 @@
   // timdesilva.me leaves the sidebar in normal flow, which is what makes its
   // sidebar narrower. Restore this block to get the pinned behaviour back.
 
+  // Desktop width (185px, the photo's) is set by the flex rules on #main in
+  // _page.scss.
   @include breakpoint($large) {
-    @include span(2 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;

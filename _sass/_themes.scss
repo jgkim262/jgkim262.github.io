@@ -58,6 +58,10 @@ $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
 
+// Width of the centred content column (masthead rule, menu and page), as on
+// asheshrambachan.github.io: its 1040px shell minus 52px padding each side.
+$site-content-width         : 936px;
+
 /* ==========================================================================
    Grid
    ========================================================================== */

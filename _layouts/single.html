@@ -14,7 +14,13 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
+{%- comment -%}
+  `profile_mobile_only: true` in a page's front matter hides the sidebar on
+  desktop and lets the text use the full width, as on
+  asheshrambachan.github.io/working-papers/. Phones keep the profile row.
+  See .main--profile-mobile in _sass/layout/_page.scss.
+{%- endcomment -%}
+<div id="main" role="main"{% if page.profile_mobile_only %} class="main--profile-mobile"{% endif %}>
   {% include sidebar.html %}
 
   {%- comment -%}
