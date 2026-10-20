@@ -401,7 +401,9 @@ body:hover .visually-hidden button {
 
 /* The job market line on the home page. */
 .page__content .jobmarket {
-  font-weight: 410;
+  font-weight: 500;
+  // 19px on desktop, per Jason; em so phones (16px body) scale to match.
+  font-size: (19em / 18);
 }
 
 /* The "2026–2027 academic job market" phrase on the home page: a hair above
