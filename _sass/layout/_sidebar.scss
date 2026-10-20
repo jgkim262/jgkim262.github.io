@@ -258,6 +258,15 @@
   }
 }
 
+// Title and institution at 15px on desktop, per Jason (the .sidebar p
+// default is 0.75em = 13.5px). The phone row keeps its smaller size.
+.sidebar .author__bio,
+.sidebar .author__institution {
+  @include breakpoint($large) {
+    font-size: 15px;
+  }
+}
+
 // "Massachusetts Institute of Technology" under the title, desktop only, as
 // on asheshrambachan.github.io; the phone row keeps just name and title.
 .sidebar .author__institution {

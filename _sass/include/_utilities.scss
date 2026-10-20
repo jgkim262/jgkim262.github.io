@@ -258,6 +258,11 @@ body:hover .visually-hidden button {
   transform: translateX(0.07em);
 }
 
+// Envelope in MIT cardinal #750014, matching the location pin, per Jason.
+.author__urls .fa-envelope {
+  color: var(--global-link-color);
+}
+
 // The pin's ink renders a hair left of the building icon's center in the
 // fa-fw column; nudge right so the two stack on the same vertical axis.
 // transform (not margin) so the column width is untouched.
