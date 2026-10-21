@@ -422,20 +422,14 @@ body:hover .visually-hidden button {
   font-family: "Newsreader", Georgia, serif;
   font-size: (20em / 18);
   // Newsreader at the site's 300 reads too thin; 400 as on Ashesh's site,
-  // with the .medium / .jobmarket-phrase emphasis lifted to stay above it.
+  // with the .medium emphasis lifted to stay above it.
   font-weight: 400;
 
-  .medium,
-  .jobmarket-phrase {
+  .medium {
     font-weight: 490; // per Jason
   }
 }
 
-/* The "2026–2027 academic job market" phrase on the home page: a hair above
-   the 300-weight body text. Apply with: <span class="jobmarket-phrase">text</span> */
-.page__content .jobmarket-phrase {
-  font-weight: 350;
-}
 
 /* The blank spacer paragraph above the home-page intro: phones only, per
    Jason (desktop starts the intro level with the photo). A fixed gap:
