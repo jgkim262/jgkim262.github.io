@@ -430,20 +430,18 @@ body:hover .visually-hidden button {
   font-weight: 350;
 }
 
-/* The blank spacer paragraph above the home-page intro. Desktop keeps its
-   natural size (text line + the theme's 1.3em paragraph margin, ~48px).
-   On phones it collapses to a fixed ~half-size gap: line-height 0 removes
-   the &nbsp; line box so the height value alone sets the gap. */
+/* The blank spacer paragraph above the home-page intro: phones only, per
+   Jason (desktop starts the intro level with the photo). A fixed gap:
+   line-height 0 removes the &nbsp; line box so the height alone sets it.
+   (Class name kept from when desktop had the spacer too.) */
 .page__content .desktop-spacer {
   display: block;
-  height: 1.3em; // ≈ half the desktop gap; tune this for mobile only
+  height: 1.3em; // tune this for the phone gap
   line-height: 0;
   margin-bottom: 0;
 
   @include breakpoint($large) {
-    height: auto;
-    line-height: inherit;
-    margin-bottom: 1.3em; // the theme's default paragraph margin, restored
+    display: none;
   }
 }
 
