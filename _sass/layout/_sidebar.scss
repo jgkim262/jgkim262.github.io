@@ -260,26 +260,28 @@
 }
 
 // Title and institution in Newsreader, the affiliation face on
-// asheshrambachan.github.io (same as the home intro), at 15px on desktop,
+// asheshrambachan.github.io (same as the home intro), at 16px on desktop,
 // per Jason (the .sidebar p default is 0.75em = 13.5px). The phone row keeps
-// its smaller size. Weight 400: the site's 300 reads too thin in Newsreader.
+// its smaller size. Title weight 415, per Jason: the site's 300 reads too
+// thin in Newsreader.
 .sidebar .author__bio,
 .sidebar .author__institution {
   font-family: "Newsreader", Georgia, serif;
-  font-weight: 400;
+  font-weight: 415;
 
   @include breakpoint($large) {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
 // "Massachusetts Institute of Technology" under the title, desktop only, as
 // on asheshrambachan.github.io; the phone row keeps just name and title.
+// MIT cardinal #750014, per Jason (the link inside inherits it).
 .sidebar .author__institution {
   display: none;
   margin: 0;
-  color: var(--global-text-color);
-  font-weight: 450; // a touch heavier than the 400 title above it, per Jason
+  color: var(--global-link-color);
+  font-weight: 450; // a touch heavier than the title above it, per Jason
 
   @include breakpoint($large) {
     display: block;
