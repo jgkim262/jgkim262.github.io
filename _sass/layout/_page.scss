@@ -21,7 +21,9 @@
   // two columns; its ::before draws the vertical rule between them.
   @include breakpoint($large) {
     display: flex;
-    margin-top: 2.6em;
+    // Menu text to first line of text = 72px, as on asheshrambachan.github.io
+    // (measured); phones keep the base 1.5em above.
+    margin-top: calc(2.6em + 8px);
 
     > .sidebar {
       flex: 0 0 185px;
