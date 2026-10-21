@@ -402,17 +402,17 @@ body:hover .visually-hidden button {
 /* The job market line on the home page. */
 .page__content .jobmarket {
   font-weight: 500;
-  // 21px on desktop inside the 19px .home-intro, per Jason; em so phones scale.
-  font-size: (21em / 19);
+  // 27px on desktop inside the 22px .home-intro, per Jason; em so phones scale.
+  font-size: (27em / 22);
 }
 
 /* The home-page intro paragraphs, in Newsreader (asheshrambachan.github.io's
-   serif; loaded in _includes/head.html) at 19px on desktop, per Jason. em so
-   phones (16px base) scale to ~16.9px. Wrapped in about.md with
+   serif; loaded in _includes/head.html) at 22px on desktop, per Jason. em so
+   phones (16px base) scale to ~19.6px. Wrapped in about.md with
    <div class="home-intro" markdown="1">. */
 .page__content .home-intro {
   font-family: "Newsreader", Georgia, serif;
-  font-size: (19em / 18);
+  font-size: (22em / 18);
   // Newsreader at the site's 300 reads too thin; 400 as on Ashesh's site,
   // with the .medium / .jobmarket-phrase emphasis lifted to stay above it.
   font-weight: 400;
