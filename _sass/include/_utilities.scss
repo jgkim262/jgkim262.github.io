@@ -392,6 +392,13 @@ body:hover .visually-hidden button {
   font-weight: 530;
 }
 
+// Home intro links (MIT Sloan, research, CV here) in the body text colour
+// rather than cardinal, per Jason; hover included. Underlines come only from
+// .underline (research, CV here).
+.page__content .home-intro a.keylink {
+  color: inherit;
+}
+
 /* Medium weight — a lighter emphasis than .semibold, for phrases that should
    lift off the 300-weight body text without shouting.
    Apply with: <span class="medium">text</span> */

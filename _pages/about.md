@@ -15,7 +15,7 @@ redirect_from:
 
 <span class="jobmarket">Jason Kim</span> is a Ph.D. candidate in Accounting at the **[MIT Sloan School of Management](https://mitsloan.mit.edu/){: .keylink}**, and he is on the <span class="jobmarket-phrase">2026–2027 academic job market</span>.
 
-His [research](/research/){: .keylink} interests lie in <span class="medium">auditing</span>, <span class="medium">regulation</span>, and the <span class="medium">organizational design of accounting work</span>. He is particularly interested in how ownership structure and regulation shape audit quality and audit market competition.
+His [research](/research/){: .underline .keylink} interests lie in <span class="medium">auditing</span>, <span class="medium">regulation</span>, and the <span class="medium">organizational design of accounting work</span>. He is particularly interested in how ownership structure and regulation shape audit quality and audit market competition.
 
 Prior to his studies at MIT, he worked as an auditor at <span class="medium">KPMG</span> Korea. He holds an M.S. in Accounting and a B.A. in Business Administration from Seoul National University, and is a licensed <span class="medium">CPA</span> (inactive) in South Korea.
 
