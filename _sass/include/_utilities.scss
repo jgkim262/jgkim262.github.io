@@ -401,10 +401,10 @@ body:hover .visually-hidden button {
 
 /* The job market line on the home page. */
 .page__content .jobmarket {
-  font-weight: 515;
+  font-weight: 520;
   color: #2b2f32; // a bit darker than the #494e52 body text, per Jason
-  // 26px on desktop inside the 20px .home-intro, per Jason; em so phones scale.
-  font-size: (26em / 20);
+  // 27px on desktop inside the 20px .home-intro, per Jason; em so phones scale.
+  font-size: (27em / 20);
 }
 
 /* The home-page intro paragraphs, in Newsreader (asheshrambachan.github.io's
