@@ -406,7 +406,35 @@ body:hover .visually-hidden button {
   font-weight: 350;
 }
 
-/* The job market line on the home page. */
+/* "Jason Kim" as a title line above the home intro, after the h1 on
+   asheshrambachan.github.io: 38px on desktop (em so phones scale), weight 520
+   and the darker #2b2f32, per Jason. Apply with {: .home-name} in about.md. */
+.page__content .home-intro .home-name {
+  font-size: (38em / 20);
+  font-weight: 520;
+  color: #2b2f32;
+  line-height: 1.1;
+  margin-bottom: 0.55em; // ~21px at 38px; Ashesh's h1 leaves ~0.58em
+}
+
+/* Desktop opens the intro with the .home-name title line; phones keep the
+   inline "Jason Kim is ..." sentence, per Jason. Both versions are in
+   about.md, tagged {: .desktop-only} / {: .mobile-only}. */
+.page__content .home-intro .desktop-only {
+  display: none;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+
+.page__content .home-intro .mobile-only {
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
+/* The inline "Jason Kim" in the phone version of the intro. */
 .page__content .jobmarket {
   font-weight: 520;
   color: #2b2f32; // a bit darker than the #494e52 body text, per Jason
