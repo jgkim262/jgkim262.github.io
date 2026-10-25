@@ -276,11 +276,11 @@
 
 // "Massachusetts Institute of Technology" under the title, desktop only, as
 // on asheshrambachan.github.io; the phone row keeps just name and title.
-// MIT cardinal #750014, per Jason (the link inside inherits it).
+// Same grey as the title above it, per Jason (the link inside inherits it).
 .sidebar .author__institution {
   display: none;
   margin: 0;
-  color: var(--global-link-color);
+  color: var(--global-text-color);
   font-weight: 450; // a touch heavier than the title above it, per Jason
 
   @include breakpoint($large) {
