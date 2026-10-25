@@ -407,14 +407,14 @@ body:hover .visually-hidden button {
 }
 
 /* "Jason Kim" as a title line above the home intro, after the h1 on
-   asheshrambachan.github.io: 42px on desktop (em so phones scale), weight 520
+   asheshrambachan.github.io: 41px on desktop (em so phones scale), weight 520
    and the darker #2b2f32, per Jason. Apply with {: .home-name} in about.md. */
 .page__content .home-intro .home-name {
-  font-size: (42em / 20);
+  font-size: (41em / 20);
   font-weight: 520;
   color: #2b2f32;
   line-height: 1.1;
-  margin-bottom: 0.55em; // ~23px at 42px; Ashesh's h1 leaves ~0.58em
+  margin-bottom: 0.55em; // ~23px at 41px; Ashesh's h1 leaves ~0.58em
   letter-spacing: 1.6px; // per Jason
 }
 
