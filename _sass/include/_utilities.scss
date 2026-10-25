@@ -415,6 +415,7 @@ body:hover .visually-hidden button {
   color: #2b2f32;
   line-height: 1.1;
   margin-bottom: 0.55em; // ~22px at 40px; Ashesh's h1 leaves ~0.58em
+  letter-spacing: 0.03em; // ~1.2px at 40px: the name ~5% wider, per Jason
 }
 
 /* Desktop opens the intro with the .home-name title line; phones keep the
