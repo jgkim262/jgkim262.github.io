@@ -263,11 +263,13 @@
 // asheshrambachan.github.io (same as the home intro), at 16px on desktop,
 // per Jason (the .sidebar p default is 0.75em = 13.5px). The phone row keeps
 // its smaller size. Title weight 415, per Jason: the site's 300 reads too
-// thin in Newsreader.
+// thin in Newsreader. Tighter line-height than the .sidebar p default (1.5)
+// so wrapped lines sit closer together, per Jason (Ashesh uses 1.35).
 .sidebar .author__bio,
 .sidebar .author__institution {
   font-family: "Newsreader", Georgia, serif;
   font-weight: 415;
+  line-height: 1.3;
 
   @include breakpoint($large) {
     font-size: 16px;
@@ -281,7 +283,7 @@
   display: none;
   margin: 0;
   color: var(--global-text-color);
-  font-weight: 450; // a touch heavier than the title above it, per Jason
+  font-weight: 500; // heavier than the title above it, per Jason
 
   @include breakpoint($large) {
     display: block;
